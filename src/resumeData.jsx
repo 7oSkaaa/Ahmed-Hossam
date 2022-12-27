@@ -127,19 +127,19 @@ let resumeData = {
     ],
     Competitions: [
         {
-            CompetitionName: "ECPC",
-            Ranks: [
-                "<i>48</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 21'",
-                "<i>26</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 22'",
-            ]
-        },
-        {
             CompetitionName: "ACPC",
             Ranks: [
                 "<i>76</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ACPC 21'",
                 "<i>56</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ACPC 22'",
             ]
-        }
+        },
+        {
+            CompetitionName: "ECPC",
+            Ranks: [
+                "<i>48</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 21' and qualified to ACPC 21'",
+                "<i>26</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 22' and qualified to ACPC 22'",
+            ]
+        },
     ],
     skills:[
         {
