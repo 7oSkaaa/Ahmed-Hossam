@@ -147,27 +147,35 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "C",
+                    rate: "100",
                 },
                 {
                     skillname: "C++",
+                    rate: "100",
                 },
                 {
                     skillname: "Python",
+                    rate: "80",
                 },
                 {
                     skillname: "Java",
+                    rate: "70",
                 },
                 {
                     skillname: "JavaScript",
+                    rate: "80",
                 },
                 {
                     skillname: "HTML",
+                    rate: "75",
                 },
                 {
                     skillname: "CSS",
+                    rate: "70",
                 },
                 {
                     skillname: "SQL",
+                    rate: "60",
                 },
             ]
         },
@@ -176,30 +184,39 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "GitHub",
+                    rate: "90",
                 },
                 {
                     skillname: "GitLab",
+                    rate: "90",
                 },
                 {
                     skillname: "Google Cloud",
+                    rate: "70",
                 },
                 {
                     skillname: "Problem Solving",
+                    rate: "100",
                 },
                 {
                     skillname: "Competitive Programming",
+                    rate: "100",
                 },
                 {
                     skillname: "Data Structures",
+                    rate: "100",
                 },
                 {
                     skillname: "Algorithms",
+                    rate: "100",
                 },
                 {
                     skillname: "Object Oriented Programming",
+                    rate: "90", 
                 },
                 {
                     skillname: "Design Patterns",
+                    rate: "70",
                 },
             ]
         },
@@ -208,27 +225,35 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "Git",
+                    rate: "90",
                 },
                 {
                     skillname: "Bash",
+                    rate: "60",
                 },
                 {
                     skillname: "Shell",
+                    rate: "70",
                 },
                 {
                     skillname: "LaTeX",
+                    rate: "80", 
                 },
                 {
                     skillname: "Markdown",
+                    rate: "100",
                 },
                 {
                     skillname: "Microsoft Office",
+                    rate: "100",
                 },
                 {
                     skillname: "Web Scraping",
+                    rate: "80",
                 },
                 {
                     skillname: "Google Documents (Docs, Sheets, Slides, Forms, etc.)",
+                    rate: "100",
                 },
             ]
         },
@@ -237,12 +262,15 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "Django",
+                    rate: "85",
                 },
                 {
                     skillname: "React JS",
+                    rate: "80",
                 },
                 {
                     skillname: "React Native",
+                    rate: "70%",
                 }
             ]
         },
@@ -251,9 +279,11 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "Windows",
+                    rate: "100",
                 },
                 {
                     skillname: "Linux",
+                    rate: "95%",
                 }
             ]
         },
@@ -283,12 +313,12 @@ let resumeData = {
             imgurl: "Sorting-algorithm.webp",
             url: "https://github.com/7oSkaaa/Sorting-Algorithms"
         },
-        {
-            name: "skip",
-            description: "skip",
-            imgurl: "skip",
-            url: "skip"
-        },
+        // {
+        //     name: "skip",
+        //     description: "skip",
+        //     imgurl: "skip",
+        //     url: "skip"
+        // },
         {
 
             name: "Competitive Programmer's Calendar",

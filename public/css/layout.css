@@ -328,6 +328,10 @@ ul#nav li.current a {
     letter-spacing: 1px;
 }
 
+#resume .wrapper {
+    border: #11ABB0;
+}
+
 #resume h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
