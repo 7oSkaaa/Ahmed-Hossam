@@ -270,7 +270,7 @@ let resumeData = {
                 },
                 {
                     skillname: "React Native",
-                    rate: "70%",
+                    rate: "70",
                 }
             ]
         },
@@ -283,7 +283,7 @@ let resumeData = {
                 },
                 {
                     skillname: "Linux",
-                    rate: "95%",
+                    rate: "95",
                 }
             ]
         },
@@ -313,12 +313,6 @@ let resumeData = {
             imgurl: "Sorting-algorithm.webp",
             url: "https://github.com/7oSkaaa/Sorting-Algorithms"
         },
-        // {
-        //     name: "skip",
-        //     description: "skip",
-        //     imgurl: "skip",
-        //     url: "skip"
-        // },
         {
 
             name: "Competitive Programmer's Calendar",
