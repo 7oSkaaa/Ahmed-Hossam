@@ -225,10 +225,10 @@ export default function Resume({ resumeData }) {
                                                             }
                                                         }}
                                                     >
-                                                        <span style={{fontWeight: "bold"}}>
+                                                        <span style={{...{fontWeight: "bold"}, ...{fontSize: "1.7rem"}, ...{letterSpacing: "1px"}}}>
                                                         {skill.skillname[0]}
                                                         </span>
-                                                        <span>
+                                                        <span style={{letterSpacing: "1px"}}>
                                                         {skill.skillname.slice(1)}
                                                         </span>
                                                     </li>
