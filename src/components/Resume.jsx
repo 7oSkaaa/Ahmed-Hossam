@@ -238,6 +238,8 @@ export default function Resume({ resumeData }) {
                                                         customLabel={`${skill.rate} %`}
                                                         className="wrapper"
                                                         bgColor={"#11ABB0"}
+                                                        animateOnRender={true}
+                                                        initCompletedOnAnimation={0}
                                                     />
                                                 </div>
                                             );
