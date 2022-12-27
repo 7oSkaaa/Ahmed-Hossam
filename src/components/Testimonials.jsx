@@ -6,7 +6,7 @@ export default function Testimonials({ resumeData }) {
                 <div className="row">
                     <div className="two columns header-col">
                         <h1>
-                            <span>Client Testimonials</span>
+                            <span>Quotes</span>
                         </h1>
                     </div>
                     <div className="ten columns flex-container">
