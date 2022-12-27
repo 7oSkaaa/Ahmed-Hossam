@@ -41,7 +41,7 @@ body {
 }
 
 .container:hover .card {
-    filter: blur(20px);
+    filter: blur(2px);
     transform: scale(0.9);
     opacity: 0.5;
 }
@@ -103,4 +103,11 @@ body {
 .container .card:nth-child(3) .circle,
 .container .card:nth-child(3) .content a {
     background: #11ABB0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
 }
