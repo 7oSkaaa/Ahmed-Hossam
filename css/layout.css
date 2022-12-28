@@ -48,13 +48,14 @@ header {
     overflow: hidden;
 }
 
-header .header_name {
+
+/* header .header_name {
     font: 90px/1.1em 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-}
+} */
 
 
 /* vertically center banner section */
@@ -72,7 +73,7 @@ header .banner {
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    s text-align: center;
+    text-align: center;
 }
 
 header .banner-text {
