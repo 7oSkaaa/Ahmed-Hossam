@@ -42,8 +42,8 @@
         width: 65%;
         margin: 12px auto;
     }
-    header .typed {
-        font-size: 14px !important;
+    header .banner-text span {
+        font-size: 13px !important;
     }
     /* nav-wrap */
     #nav-wrap {
@@ -399,7 +399,7 @@
         padding-top: 24px;
     }
     header .banner-text h1 {
-        font: 40px/1.1em 'opensans-bold', sans-serif;
+        font: 35px/1.1em 'opensans-bold', sans-serif;
         margin: 0 auto 24px auto;
     }
     header .banner-text h3 {
@@ -412,6 +412,9 @@
     }
     header .social li {
         margin: 0 6px;
+    }
+    header .wave_img {
+        width: 3rem;
     }
     /* footer
    ------------------------------------------------------------------------ */
