@@ -56,12 +56,6 @@ header .header_name {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
-header .typed_strings {
-    color: "#fff";
-    font-family: "sans-serif ";
-    font-size: "2rem";
-}
-
 
 /* vertically center banner section */
 
@@ -109,7 +103,10 @@ header .banner-text h3 a {
 header .banner-text span {
     display: inline-flex;
     align-items: baseline;
-    word-spacing: "0.5rem";
+    word-spacing: 0.5rem;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
 }
 
 header .banner-text hr {
