@@ -56,7 +56,7 @@ export default function Header({ resumeData }) {
 
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline" style={{fontSize: '80px'}}>Hi , I'm Ahmed Hossam <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60rem" alt="wave" className="wave_img"/></h1>
+                        <h1>Hi , I'm Ahmed Hossam <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60rem" alt="wave" className="wave_img"/></h1>
                         <Typed
                             strings={resumeData.roleDescription}
                             typeSpeed={40}
