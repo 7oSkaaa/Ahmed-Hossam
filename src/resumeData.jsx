@@ -3,8 +3,13 @@ let resumeData = {
     name: "Ahmed Hossam",
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
-    roleDescription:
-        "I like coding and solving problems, I am a competitive programmer and I am always looking for new challenges.",
+    roleDescription: [
+        "🏫  I'm Full Stack Developer @Bld.ai",
+        "💻  I'm Competitive Programmer @Codeforces, Atcoder, Leetcode, Codechef and Google Contests.",
+        "🧑🏻‍🎓  I'm a Senior at faculty of Computers & Informatics at Suez Canal University.",
+        "🏆  I'm a 2x ACPC Finalist.",
+        "🤓  Always learning new things.",
+    ],
     socialLinks: [
         {
             name: "gmail",

@@ -48,6 +48,20 @@ header {
     overflow: hidden;
 }
 
+header .header_name {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+header .typed_strings {
+    color: "#fff";
+    font-family: "sans-serif ";
+    font-size: "2rem";
+}
+
 
 /* vertically center banner section */
 
@@ -72,7 +86,7 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font: 80px/1.1em 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -90,6 +104,12 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
     color: #fff;
+}
+
+header .banner-text span {
+    display: inline-flex;
+    align-items: baseline;
+    word-spacing: "0.5rem";
 }
 
 header .banner-text hr {
