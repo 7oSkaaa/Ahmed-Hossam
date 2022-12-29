@@ -37,6 +37,7 @@ export default function ContactUs({ resumeData }) {
                                             href={item.url}
                                             target="_blank"
                                             rel="noreferrer"
+                                            id="social_tab"
                                         >
                                             <img
                                                 src={item.icon}

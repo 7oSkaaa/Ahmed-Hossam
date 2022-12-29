@@ -163,6 +163,16 @@ header .scrolldown a {
     transition: all .3s ease-in-out;
 }
 
+header .social img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+header .social img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 header .scrolldown a:hover {
     color: #11ABB0;
 }
@@ -1218,6 +1228,16 @@ call-to-action .button {
 #contact span.required {
     color: #11ABB0;
     font-size: 13px;
+}
+
+#contact #social_tab img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#contact #social_tab img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 #message-warning,

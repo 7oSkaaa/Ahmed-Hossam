@@ -6,7 +6,7 @@ export default function About({ resumeData }) {
                 <div className="three columns">
                     <img
                         className="profile-pic"
-                        src="https://i.ibb.co/hWBfSMR/Ahmed-Hossam.png"
+                        src={resumeData.imagebaseurl}
                         alt=""
                     />
                 </div>

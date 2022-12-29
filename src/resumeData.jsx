@@ -1,11 +1,11 @@
 let resumeData = {
-    imagebaseurl: "https://i.ibb.co/HXS11wN/Ahmed-Hossam.png",
+    imagebaseurl: "https://iili.io/HTsCeYF.webp",
     name: "Ahmed Hossam",
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
     roleDescription: [
         "🏫  I'm Full Stack Developer @Bld.ai",
-        "💻  I'm Competitive Programmer @Codeforces, Atcoder, Leetcode, Codechef and Google Contests.",
+        "💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
         "🧑🏻‍🎓  I'm a Senior at faculty of Computers & Informatics at Suez Canal University.",
         "🏆  I'm a 2x ACPC Finalist.",
         "🤓  Always learning new things.",
@@ -14,42 +14,42 @@ let resumeData = {
         {
             name: "gmail",
             url: "mailto:ahmed.7oskaa@gmail.com",
-            icon: "https://i.ibb.co/1K3BSyx/gmail.png",
+            icon: "https://iili.io/HTs307f.png",
         },
         {
             name: "linkedin",
             url: "https://www.linkedin.com/in/7oskaa/",
-            icon: "https://i.ibb.co/ZGMzfZV/linkedin.png",
+            icon: "https://iili.io/HTs3SIV.png",
         },
         {
             name: "github",
             url: "https://github.com/7oSkaaa",
-            icon: "https://i.ibb.co/5kmS7cQ/github.png",
+            icon: "https://iili.io/HTsFI3u.png",
         },
         {
             name: "codeforces",
             url: "https://codeforces.com/profile/7oSkaaa",
-            icon: "https://i.ibb.co/ZTM3XQH/codeforces.png",
+            icon: "https://iili.io/HTsKwRj.png",
         },
         {
             name: "leetcode",
             url: "https://leetcode.com/7oSkaa",
-            icon: "https://i.ibb.co/R6Z5hTj/leetcode.png",
+            icon: "https://iili.io/HTsfWLN.png",
         },
         {
             name: "atcoder",
             url: "https://atcoder.jp/users/ahmed_7oSkaa",
-            icon: "https://i.ibb.co/ZdcQCmT/atcoder.png",
+            icon: "https://iili.io/HTsq4wv.png",
         },
         {
             name: "codechef",
             url: "https://www.codechef.com/users/ahmed_7oskaa",
-            icon: "https://i.ibb.co/TKBhPnb/codechef.png",
+            icon: "https://iili.io/HTsBGiN.png",
         },
         {
             name: "icpc",
             url: "https://icpc.global/ICPCID/IW0X0CTD0ZV9",
-            icon: "https://i.ibb.co/HnPH60Z/icpc.png",
+            icon: "https://iili.io/HTsBUfS.png",
         },
     ],
     aboutme: [

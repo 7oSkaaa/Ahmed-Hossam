@@ -10,7 +10,7 @@ export default function Footer({ resumeData }) {
                                 return (
                                     <li key={idx}>
                                         <a href={item.url}>
-                                            <i className={item.className} />
+                                            <i className={`${item.className}`} />
                                         </a>
                                     </li>
                                 );
