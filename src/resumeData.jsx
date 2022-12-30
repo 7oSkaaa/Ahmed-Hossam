@@ -53,7 +53,8 @@ let resumeData = {
         },
     ],
     aboutme: [
-        "🏫 I am a Junior at faculty of Computers & Informatics at Suez Canal University.",
+        "🧑‍💼 I'm Full Stack Developer @Bld.ai",
+        "🏫 I am a Senior at faculty of Computers & Informatics at Suez Canal University.",
         "🏆 2x ACPC Finalist.",
         "🧑🏻‍💻 I love using Software as a solution for every Problem.",
         "💻 I'm a competitive programmer at Codeforces, Atcoder, Leetcode, Codechef and Google Contests.",
