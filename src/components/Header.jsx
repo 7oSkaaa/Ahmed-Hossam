@@ -46,11 +46,6 @@ export default function Header({ resumeData }) {
                                 Contact
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#testimonials">
-                                Testimonials
-                            </a>
-                        </li>
                     </ul>
                 </nav>
 
