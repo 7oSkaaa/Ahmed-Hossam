@@ -1169,7 +1169,7 @@ call-to-action .button {
 
 #contact {
     background: #191919;
-    padding-top: 96px;
+    padding-top: 20px;
     padding-bottom: 102px;
     color: #636363;
 }
@@ -1473,4 +1473,46 @@ footer .social-links li:first-child {
 
 #go-top a:hover {
     background-color: #0F9095;
+}
+
+.css-yslrua-MuiTypography-root-MuiAlertTitle-root {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+}
+
+.css-1pxa9xg-MuiAlert-message {
+    font-size: 1.5rem !important;
+}
+
+.css-camg44-MuiPaper-root-MuiAlert-root {
+    max-width: 90% !important;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #525252;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #0F9095;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #eee;
 }
