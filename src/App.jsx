@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import AnonymousMessage from "./components/AnonymousMessage";
 
 function App() {
     return (
@@ -15,8 +16,9 @@ function App() {
             <About resumeData={resumeData} />
             <Resume resumeData={resumeData} />
             <Projects resumeData={resumeData} />
-            <Testimonials resumeData={resumeData} />
+            <AnonymousMessage />
             <ContactUs resumeData={resumeData} />
+            <Testimonials resumeData={resumeData} />
             <Footer resumeData={resumeData} />
         </div>
     );

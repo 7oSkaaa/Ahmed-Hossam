@@ -18,6 +18,9 @@
         letter-spacing: -1px;
         margin: 0 auto 12px auto;
     }
+    .anonymous_button {
+        width: 20%;
+    }
 }
 
 
@@ -99,6 +102,9 @@
     #contact .section-head p.lead {
         font: 17px/33px opensans-light, sans-serif;
     }
+    .anonymous_button {
+        width: 30%;
+    }
 }
 
 
@@ -108,6 +114,9 @@
 @media only screen and (max-width: 767px) {
     /* mobile navigation
    -------------------------------------------------------------------- */
+    #resume .language {
+        max-width: 100%;
+    }
     #nav-wrap {
         font: 12px 'opensans-bold', sans-serif;
         background: transparent !important;
@@ -252,6 +261,12 @@
     .bars {
         width: 100%;
     }
+    #resume .resume_label {
+        padding-top: 0 !important;
+    }
+    #resume .language_label {
+        margin: 1rem;
+    }
     /* Call To Action Section
    /* ----------------------------------------------------------------- */
     #call-to-action {
@@ -380,6 +395,9 @@
         font-size: 18px;
         line-height: 54px;
     }
+    .anonymous_button {
+        width: 40%;
+    }
 }
 
 
@@ -424,5 +442,8 @@
     }
     footer .social-links li {
         margin-left: 14px;
+    }
+    .anonymous_button {
+        width: 40%;
     }
 }

@@ -220,16 +220,36 @@ export default function Resume({ resumeData }) {
                                                                 margin:
                                                                     "0.5rem",
                                                             },
-                                                            ...{
-                                                                
-                                                            }
+                                                            ...{},
                                                         }}
                                                     >
-                                                        <span style={{...{fontWeight: "bold"}, ...{fontSize: "1.7rem"}, ...{letterSpacing: "1px"}}}>
-                                                        {skill.skillname[0]}
+                                                        <span
+                                                            style={{
+                                                                ...{
+                                                                    fontWeight:
+                                                                        "bold",
+                                                                },
+                                                                ...{
+                                                                    fontSize:
+                                                                        "1.7rem",
+                                                                },
+                                                                ...{
+                                                                    letterSpacing:
+                                                                        "1px",
+                                                                },
+                                                            }}
+                                                        >
+                                                            {skill.skillname[0]}
                                                         </span>
-                                                        <span style={{letterSpacing: "1px"}}>
-                                                        {skill.skillname.slice(1)}
+                                                        <span
+                                                            style={{
+                                                                letterSpacing:
+                                                                    "1px",
+                                                            }}
+                                                        >
+                                                            {skill.skillname.slice(
+                                                                1
+                                                            )}
                                                         </span>
                                                     </li>
                                                     <ProgressBar
@@ -239,7 +259,9 @@ export default function Resume({ resumeData }) {
                                                         className="wrapper"
                                                         bgColor={"#11ABB0"}
                                                         animateOnRender={true}
-                                                        initCompletedOnAnimation={0}
+                                                        initCompletedOnAnimation={
+                                                            0
+                                                        }
                                                     />
                                                 </div>
                                             );
@@ -250,36 +272,44 @@ export default function Resume({ resumeData }) {
                 </div>
             </div>
 
-            <div className="row languages">
-                <div className="twelve columns header-col">
+            <div
+                className="row languages"
+                style={{ display: "flex", flexDirection: "column" }}
+            >
+                <div className="twelve columns header-col language_label">
                     <h1>
                         <span>Languages</span>
                     </h1>
                 </div>
-                <div className="six columns left" style={{float: "left", marginTop:"5px"}}>
-                    {
-                        resumeData.languages && resumeData.languages.map((item, idx) => {
+                <div
+                    className="twelve columns language"
+                    style={{ alignContent: "start" }}
+                >
+                    {resumeData.languages &&
+                        resumeData.languages.map((item, idx) => {
                             return (
-                                <div key={idx}>
+                                <div key={idx} style={{ margin: "20px" }}>
                                     <li
                                         style={{
-                                            ...{
-                                                margin:
-                                                    "0.5rem",
-                                            },
                                             ...{
                                                 listStyle: "none",
                                             },
                                             ...{
-                                                margin: "2rem",
-                                            }
+                                                margin: "0.5rem",
+                                            },
                                         }}
                                     >
-                                        <span style={{...{fontWeight: "bold"}, ...{fontSize: "2rem"}, ...{letterSpacing: "1px"}}}>
-                                        {item.name[0]}
+                                        <span
+                                            style={{
+                                                ...{ fontWeight: "bold" },
+                                                ...{ fontSize: "2rem" },
+                                                ...{ letterSpacing: "1px" },
+                                            }}
+                                        >
+                                            {item.name[0]}
                                         </span>
-                                        <span style={{letterSpacing: "1px"}}>
-                                        {item.name.slice(1)}
+                                        <span style={{ letterSpacing: "1px" }}>
+                                            {item.name.slice(1)}
                                         </span>
                                     </li>
                                     <ProgressBar
@@ -292,9 +322,8 @@ export default function Resume({ resumeData }) {
                                         initCompletedOnAnimation={0}
                                     />
                                 </div>
-                            )
-                        })
-                    }
+                            );
+                        })}
                 </div>
             </div>
 
@@ -305,7 +334,7 @@ export default function Resume({ resumeData }) {
                     </h1>
                 </div>
                 <p
-                    fluid="twelve columns header-col"
+                    className="twelve columns header-col resume_label"
                     style={{
                         ...{ fontSize: "2rem" },
                         ...{ paddingLeft: "20px" },
