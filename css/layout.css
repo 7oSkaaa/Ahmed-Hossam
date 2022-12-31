@@ -311,7 +311,7 @@ ul#nav li.current a {
 }
 
 #about .main-col {
-    padding-right: 5%;
+    padding-right: 2%;
 }
 
 #about .download .button {
@@ -381,7 +381,9 @@ ul#nav li.current a {
 }
 
 .education,
-.work {
+.work,
+.skills,
+.languages {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
@@ -402,6 +404,10 @@ ul#nav li.current a {
 #resume .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
+}
+
+#resume .language {
+    max-width: 50%;
 }
 
 
@@ -1111,7 +1117,54 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 
-/* h. Contact Section
+/* h. Anonymous Section
+/* ------------------------------------------------------------------ */
+
+.anonymous_section {
+    display: flex;
+    flex-direction: column;
+    background: #191919;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #636363;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.anonymous_textarea {
+    width: 90%;
+    max-width: 800px;
+    margin: 10 auto;
+    text-align: center;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+
+.anonymous_label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.anonymous_button {
+    background: #11ABB0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 12%;
+    border-radius: 10px;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* i. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -1189,12 +1242,12 @@ call-to-action .button {
     width: 26%;
 }
 
-#contact input,
-#contact textarea,
-#contact select {
+input,
+textarea,
+select {
     padding: 18px 20px;
-    color: #eee;
-    background: #373233;
+    color: #0D0D0D;
+    background: #eee;
     margin-bottom: 42px;
     border: 0;
     outline: none;
@@ -1203,11 +1256,25 @@ call-to-action .button {
     width: 65%;
 }
 
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-    color: #fff;
-    background-color: #11ABB0;
+input:focus,
+textarea:focus,
+select:focus {
+    color: #474747;
+    box-shadow: 0 0 0 3px #11ABB0 !important;
+    background-color: #eee;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #474747;
+    outline: 1px solid #11ABB0;
 }
 
 #contact button.submit {
@@ -1303,7 +1370,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 
-/* i. Footer
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
