@@ -42,13 +42,13 @@ export default function Header({ resumeData }) {
                             </a>
                         </li>
                         <li>
-                            <a className="smoothscroll" href="#testimonials">
-                                Testimonials
+                            <a className="smoothscroll" href="#contact">
+                                Contact
                             </a>
                         </li>
                         <li>
-                            <a className="smoothscroll" href="#contact">
-                                Contact
+                            <a className="smoothscroll" href="#testimonials">
+                                Testimonials
                             </a>
                         </li>
                     </ul>
