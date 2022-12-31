@@ -12,14 +12,14 @@ let resumeData = {
     ],
     socialLinks: [
         {
-            name: "gmail",
-            url: "mailto:ahmed.7oskaa@gmail.com",
-            icon: "https://iili.io/HTs307f.png",
-        },
-        {
             name: "linkedin",
             url: "https://www.linkedin.com/in/7oskaa/",
             icon: "https://iili.io/HTs3SIV.png",
+        },
+        {
+            name: "gmail",
+            url: "mailto:ahmed.7oskaa@gmail.com",
+            icon: "https://iili.io/HTs307f.png",
         },
         {
             name: "github",

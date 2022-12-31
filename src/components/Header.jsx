@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from 'react-typed';
+import Typed from "react-typed";
 
 export default function Header({ resumeData }) {
     return (
@@ -49,9 +49,28 @@ export default function Header({ resumeData }) {
                     </ul>
                 </nav>
 
-                <div className="row banner">
+                <div
+                    className="banner"
+                    style={{ display: "inline-flex", flexDirection: "row" }}
+                >
+                    <div>
+                        <img
+                            src="https://iili.io/HuYX494.png"
+                            alt="me"
+                            sizes="50px"
+                            className="hidden_img"
+                        />
+                    </div>
                     <div className="banner-text">
-                        <h1>Hi , I'm Ahmed Hossam <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="60rem" alt="wave" className="wave_img"/></h1>
+                        <h1>
+                            Hi , I'm Ahmed Hossam{" "}
+                            <img
+                                src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+                                width="60rem"
+                                alt="wave"
+                                className="wave_img"
+                            />
+                        </h1>
                         <Typed
                             strings={resumeData.roleDescription}
                             typeSpeed={40}

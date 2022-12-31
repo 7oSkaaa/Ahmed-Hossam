@@ -21,6 +21,15 @@
     .anonymous_button {
         width: 20%;
     }
+    header .banner {
+        flex-direction: column !important;
+        gap: 1rem;
+    }
+    .hidden_img {
+        width: 40rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
 }
 
 
