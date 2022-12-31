@@ -184,7 +184,7 @@ export default function Resume({ resumeData }) {
                 </div>
             </div>
 
-            <div className="row skill">
+            <div className="row skills">
                 <div className="header-col">
                     <h1>
                         <span>Skills</span>
@@ -249,7 +249,56 @@ export default function Resume({ resumeData }) {
                         })}
                 </div>
             </div>
-            <div className="row">
+
+            <div className="row languages">
+                <div className="twelve columns header-col">
+                    <h1>
+                        <span>Languages</span>
+                    </h1>
+                </div>
+                <div className="six columns left" style={{float: "left", marginTop:"5px"}}>
+                    {
+                        resumeData.languages && resumeData.languages.map((item, idx) => {
+                            return (
+                                <div key={idx}>
+                                    <li
+                                        style={{
+                                            ...{
+                                                margin:
+                                                    "0.5rem",
+                                            },
+                                            ...{
+                                                listStyle: "none",
+                                            },
+                                            ...{
+                                                margin: "2rem",
+                                            }
+                                        }}
+                                    >
+                                        <span style={{...{fontWeight: "bold"}, ...{fontSize: "2rem"}, ...{letterSpacing: "1px"}}}>
+                                        {item.name[0]}
+                                        </span>
+                                        <span style={{letterSpacing: "1px"}}>
+                                        {item.name.slice(1)}
+                                        </span>
+                                    </li>
+                                    <ProgressBar
+                                        completed={item.rate}
+                                        maxCompleted={100}
+                                        customLabel={`${item.rate} %`}
+                                        className="wrapper"
+                                        bgColor={"#11ABB0"}
+                                        animateOnRender={true}
+                                        initCompletedOnAnimation={0}
+                                    />
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+
+            <div className="row resume">
                 <div className="twelve columns header-col">
                     <h1>
                         <span>Resume</span>

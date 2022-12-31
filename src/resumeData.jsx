@@ -4,11 +4,11 @@ let resumeData = {
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
     roleDescription: [
-        '🏫  I’m Full Stack Developer&nbsp<a href="https://www.bld.ai/">@Bld.ai</a>',
-        '💻  I’m Competitive Programmer @ <a href="https://codeforces.com/profile/7oSkaaa/">Codeforces</a>,&nbsp<a href="https://atcoder.jp/users/ahmed_7oSkaa/">AtCoder</a>,&nbsp<a href="https://leetcode.com/7oSkaa//">LeetCode</a>,&nbsp<a href="https://www.codechef.com/users/ahmed_7oskaa">CodeChef</a>&nbspand&nbsp<a href="https://codingcompetitions.withgoogle.com/">Google Contests</a>.',
-        '🧑🏻‍🎓  I’m a Senior at faculty of Computers & Informatics at Suez Canal University.',
-        '🏆  I’m a 2x ACPC Finalist.',
-        '🤓  Always learning new things.',
+        "🏫  I'm Full Stack Developer @Bld.ai",
+        "💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
+        "🧑🏻‍🎓  I'm a Senior at faculty of Computers &amp; Informatics at Suez Canal University.",
+        "🏆  I'm a 2x ACPC Finalist.",
+        "🤓  Always learning new things.",
     ],
     socialLinks: [
         {
@@ -53,13 +53,13 @@ let resumeData = {
         },
     ],
     aboutme: [
-        "🧑‍💼 I'm Full Stack Developer @Bld.ai",
-        "🏫 I am a Senior at faculty of Computers & Informatics at Suez Canal University.",
-        "🏆 2x ACPC Finalist.",
-        "🧑🏻‍💻 I love using Software as a solution for every Problem.",
-        "💻 I'm a competitive programmer at Codeforces, Atcoder, Leetcode, Codechef and Google Contests.",
-        "🧑🏻‍🎓 I'm currently learning Computer Science and Software Engineering.",
-        "🤓 Always learning new things.",
+        '🧑‍💼 I\'m Full Stack Developer <a href="https://www.bld.ai/">@Bld.ai</a>',
+        '🏫 I am a Senior at <a href="https://cutt.ly/FCI_SCU">faculty of Computers & Informatics</a> at <a href="http://suez.edu.eg/ar/">Suez Canal University</a>.',
+        '🏆 2x ACPC Finalist.',
+        '🧑🏻‍💻 I love using Software as a solution for every Problem.',
+        '💻  I\'m Competitive Programmer @ <a href="https://codeforces.com/profile/7oSkaaa/">Codeforces</a>,&nbsp<a href="https://atcoder.jp/users/ahmed_7oSkaa/">AtCoder</a>,&nbsp<a href="https://leetcode.com/7oSkaa//">LeetCode</a>,&nbsp<a href="https://www.codechef.com/users/ahmed_7oskaa">CodeChef</a>&nbspand&nbsp<a href="https://codingcompetitions.withgoogle.com/">Google Contests</a>.',
+        '🧑🏻‍🎓 I\'m currently learning Computer Science and Software Engineering.',
+        '🤓 Always learning new things.',
     ],
     address: "Port Said, Egypt",
     number: "+201208822340",
@@ -399,6 +399,16 @@ let resumeData = {
             name: "twitter",
             url: "https://twitter.com/Ahmed_7oSkaa",
             icon: "https://www.edigitalagency.com.au/wp-content/uploads/Twitter-logo-png.png"
+        }
+    ],
+    languages: [
+        {
+            name: "Arabic",
+            rate: "100",
+        },
+        {
+            name: "English",
+            rate: "85",
         }
     ]
 };

@@ -16,9 +16,13 @@ export default function About({ resumeData }) {
                     <p>
                         {resumeData.aboutme.map((item, idx) => {
                             return (
-                                <li style={{ ...{ margin: "1rem" } }} key={idx}>
-                                    {item}
-                                </li>
+                                <li
+                                    style={{ ...{ margin: "1rem" } }}
+                                    key={idx}
+                                    dangerouslySetInnerHTML={{
+                                        __html: item,
+                                    }}
+                                />
                             );
                         })}
                     </p>
