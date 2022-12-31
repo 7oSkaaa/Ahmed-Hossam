@@ -4,11 +4,11 @@ let resumeData = {
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
     roleDescription: [
-        "🏫  I'm Full Stack Developer @Bld.ai",
-        "💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
-        "🧑🏻‍🎓  I'm a Senior at faculty of Computers & Informatics at Suez Canal University.",
-        "🏆  I'm a 2x ACPC Finalist.",
-        "🤓  Always learning new things.",
+        '🏫  I’m Full Stack Developer&nbsp<a href="https://www.bld.ai/">@Bld.ai</a>',
+        '💻  I’m Competitive Programmer @ <a href="https://codeforces.com/profile/7oSkaaa/">Codeforces</a>,&nbsp<a href="https://atcoder.jp/users/ahmed_7oSkaa/">AtCoder</a>,&nbsp<a href="https://leetcode.com/7oSkaa//">LeetCode</a>,&nbsp<a href="https://www.codechef.com/users/ahmed_7oskaa">CodeChef</a>&nbspand&nbsp<a href="https://codingcompetitions.withgoogle.com/">Google Contests</a>.',
+        '🧑🏻‍🎓  I’m a Senior at faculty of Computers & Informatics at Suez Canal University.',
+        '🏆  I’m a 2x ACPC Finalist.',
+        '🤓  Always learning new things.',
     ],
     socialLinks: [
         {
