@@ -45,6 +45,7 @@ export default function AnonymousMessage() {
                 id="anonymous_textarea"
                 onChange={event => setText(event.target.value)}
                 value={text}
+                required
             />
             <input type="submit" value="Send" className="anonymous_button" />
             {
