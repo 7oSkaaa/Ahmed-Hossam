@@ -414,6 +414,29 @@ ul#nav li.current a {
     max-width: 50%;
 }
 
+#resume .Gears {
+    position: absolute;
+    left: -5%;
+    font-size: 30rem;
+    opacity: 0.5;
+}
+
+#resume .Code {
+    position: absolute;
+    right: -40%;
+    font-size: 30rem;
+    opacity: 0.5;
+    float: right;
+}
+
+#resume .global {
+    position: absolute;
+    right: -100%;
+    font-size: 15rem;
+    opacity: 0.5;
+    float: right;
+}
+
 
 /*----------------------------------------------*/
 
