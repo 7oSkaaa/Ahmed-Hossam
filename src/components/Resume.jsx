@@ -1,9 +1,12 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCog, faCode, faEarthAfrica } from '@fortawesome/free-solid-svg-icons'
 
 export default function Resume({ resumeData }) {
     return (
         <section id="resume">
+            <FontAwesomeIcon icon={faCog} color={'#11ABB0'} className={'Gears'} spin />
             <div className="row education">
                 <div className="three columns header-col">
                     <h1>
@@ -147,6 +150,7 @@ export default function Resume({ resumeData }) {
                 </div>
 
                 <div className="nine columns main-col">
+                    <FontAwesomeIcon icon={faCode} color={'#11ABB0'} className={'Code'} spin />
                     {resumeData.Competitions &&
                         resumeData.Competitions.map((item, idx) => {
                             return (
@@ -285,6 +289,7 @@ export default function Resume({ resumeData }) {
                     className="twelve columns language"
                     style={{ alignContent: "start" }}
                 >
+                    <FontAwesomeIcon icon={faEarthAfrica} color={'#11ABB0'} className={'global'} spin />
                     {resumeData.languages &&
                         resumeData.languages.map((item, idx) => {
                             return (
