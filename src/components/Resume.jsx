@@ -6,7 +6,7 @@ import { faCog, faCode, faEarthAfrica } from '@fortawesome/free-solid-svg-icons'
 export default function Resume({ resumeData }) {
     return (
         <section id="resume">
-            <FontAwesomeIcon icon={faCog} color={'#11ABB0'} className={'Gears'} spin />
+            <FontAwesomeIcon icon={faCog} color={'#11ABB0'} className={'Gears fa-spin'} spin />
             <div className="row education">
                 <div className="three columns header-col">
                     <h1>
@@ -150,7 +150,7 @@ export default function Resume({ resumeData }) {
                 </div>
 
                 <div className="nine columns main-col">
-                    <FontAwesomeIcon icon={faCode} color={'#11ABB0'} className={'Code'} spin />
+                    <FontAwesomeIcon icon={faCode} color={'#11ABB0'} className={'Code fa-spin'} spin />
                     {resumeData.Competitions &&
                         resumeData.Competitions.map((item, idx) => {
                             return (
@@ -289,7 +289,7 @@ export default function Resume({ resumeData }) {
                     className="twelve columns language"
                     style={{ alignContent: "start" }}
                 >
-                    <FontAwesomeIcon icon={faEarthAfrica} color={'#11ABB0'} className={'global'} spin />
+                    <FontAwesomeIcon icon={faEarthAfrica} color={'#11ABB0'} className={'global fa-spin'} speed={"200"} spin/>
                     {resumeData.languages &&
                         resumeData.languages.map((item, idx) => {
                             return (
