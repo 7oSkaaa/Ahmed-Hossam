@@ -343,6 +343,36 @@ let resumeData = {
             description: "Make shorten URL with Cuttly API",
             imgurl: "url-shortener.png",
             url: "https://github.com/7oSkaaa/Shorten-Link"
+        },
+        {
+            name: "Image Proccessing",
+            description: "Image Proccessing with OpenCV and Python",
+            imgurl: "image-processing.png",
+            url: "https://github.com/7oSkaaa/Image-Proccessing",
+        },
+        {
+            name: "Codeforces Friends Script",
+            description: "Script to add friends on Codeforces by write them handle's on txt file",
+            imgurl: "codeforces.png",
+            url: "https://github.com/7oSkaaa/Codeforces-Friends-Script",
+        },
+        {
+            name: "Codeforces Polygon Template",
+            description: "Polygon Template for Codeforces Contests",
+            imgurl: "polygon.png",
+            url: "https://github.com/7oSkaaa/Codeforces-Polygon-Template"
+        },
+        {
+            name: "CP Templates",
+            description: "Templates for Competitive Programming",
+            imgurl: "cp-templates.png",
+            url: "https://github.com/7oSkaaa/CP-Templates",
+        },
+        {
+            name: "CP Sessions",
+            description: "Sessions for Competitive Programming",
+            imgurl: "cp-sessions.png",
+            url: "https://github.com/7oSkaaa/Competitive-Programming-Session-Content"
         }
     ],
     testimonials: [
