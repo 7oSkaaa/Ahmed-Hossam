@@ -373,6 +373,12 @@ let resumeData = {
             description: "Sessions for Competitive Programming",
             imgurl: "cp-sessions.png",
             url: "https://github.com/7oSkaaa/Competitive-Programming-Session-Content"
+        },
+        {
+            name: "LeetCode Daily Challenge in 2023",
+            description: "LeetCode Daily Challenge in 2023 Solutions with various languages and different approaches to solve the problem with explanation.",
+            imgurl: "leetcode.png",
+            url: "https://github.com/7oSkaaa/LeetCode_DailyChallenge_2023"
         }
     ],
     testimonials: [
