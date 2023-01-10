@@ -418,14 +418,14 @@ ul#nav li.current a {
     position: absolute;
     left: -5%;
     font-size: 30rem;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 #resume .Code {
     position: absolute;
     right: -40%;
     font-size: 30rem;
-    opacity: 0.5;
+    opacity: 0.2;
     float: right;
 }
 
@@ -433,7 +433,7 @@ ul#nav li.current a {
     position: absolute;
     right: -100%;
     font-size: 15rem;
-    opacity: 0.5;
+    opacity: 0.2;
     float: right;
 }
 
