@@ -33,14 +33,14 @@
     #resume .Gears {
         position: absolute;
         font-size: 20rem;
-        opacity: 0.5;
+        opacity: 0.2;
         left: -5%;
     }
     #resume .Code {
         position: absolute;
         right: -10%;
         font-size: 20rem;
-        opacity: 0.5;
+        opacity: 0.2;
         float: right;
     }
 }
@@ -142,21 +142,21 @@
     #resume .Gears {
         position: absolute;
         font-size: 15rem;
-        opacity: 0.5;
+        opacity: 0.2;
         left: -15%;
     }
     #resume .Code {
         position: absolute;
         right: -10%;
         font-size: 10rem;
-        opacity: 0.5;
+        opacity: 0.2;
         float: right;
     }
     #resume .global {
         position: absolute;
         right: -5%;
         font-size: 10rem;
-        opacity: 0.5;
+        opacity: 0.2;
         float: right;
         top: -50%;
     }
