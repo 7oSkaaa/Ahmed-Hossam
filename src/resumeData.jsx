@@ -1,5 +1,5 @@
 let resumeData = {
-    imagebaseurl: "https://iili.io/HTsCeYF.webp",
+    imagebaseurl: "https://iili.io/Ha7Lb8Q.webp",
     name: "Ahmed Hossam",
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
@@ -14,42 +14,42 @@ let resumeData = {
         {
             name: "linkedin",
             url: "https://www.linkedin.com/in/7oskaa/",
-            icon: "https://iili.io/HTs3SIV.png",
+            icon: "https://iili.io/HaY3BBR.webp",
         },
         {
             name: "gmail",
             url: "mailto:ahmed.7oskaa@gmail.com",
-            icon: "https://iili.io/HTs307f.png",
+            icon: "https://iili.io/HaY3z7t.webp",
         },
         {
             name: "github",
             url: "https://github.com/7oSkaaa",
-            icon: "https://iili.io/HTsFI3u.png",
+            icon: "https://iili.io/HaY3YB4.webp",
         },
         {
             name: "codeforces",
             url: "https://codeforces.com/profile/7oSkaaa",
-            icon: "https://iili.io/HTsKwRj.png",
+            icon: "https://iili.io/HaY3Ev9.webp",
         },
         {
             name: "leetcode",
             url: "https://leetcode.com/7oSkaa",
-            icon: "https://iili.io/HTsfWLN.png",
+            icon: "https://iili.io/HaY3Whb.webp",
         },
         {
             name: "atcoder",
             url: "https://atcoder.jp/users/ahmed_7oSkaa",
-            icon: "https://iili.io/HTsq4wv.png",
+            icon: "https://iili.io/HaY3kYP.webp",
         },
         {
             name: "codechef",
             url: "https://www.codechef.com/users/ahmed_7oskaa",
-            icon: "https://iili.io/HTsBGiN.png",
+            icon: "https://iili.io/HaY3wEQ.webp",
         },
         {
             name: "icpc",
             url: "https://icpc.global/ICPCID/IW0X0CTD0ZV9",
-            icon: "https://iili.io/HTsBUfS.png",
+            icon: "https://iili.io/HaY3AIs.webp",
         },
     ],
     aboutme: [
@@ -399,42 +399,42 @@ let resumeData = {
         {
             name: "linkedin",
             url: "https://www.linkedin.com/in/7oskaa/",
-            icon: "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            icon: "https://iili.io/HaY3BBR.webp"
         },
         {
             name: "gmail",
             url: "mailto:ahmed.7oskaa@gmail.com",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png",
+            icon: "https://iili.io/HaY3z7t.webp",
         },
         {
             name: "facebook",
             url: "https://www.facebook.com/7oSkaaa/",
-            icon: "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png",
+            icon: "https://iili.io/HaYErDF.webp",
         },
         {
             name: "whatsapp",
             url: "https://wa.link/csfdug",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png"
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.webp"
         },
         {
             name: "telegram",
             url: "https://msng.link/o/?Ahmed7oskaa=tg",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.webp"
         },
         {
             name: "snapchat",
             url: "https://msng.link/o/?ahmed.7oskaa=sc",
-            icon: "https://freepngimg.com/save/74079-icons-media-snapchat-computer-social-snap-logo/505x505"
+            icon: "https://iili.io/HaYE6og.webp"
         },
         {
             name: "instagram",
             url: "https://www.instagram.com/ahmed_7oskaa/",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.webp"
         },
         {
             name: "twitter",
             url: "https://twitter.com/Ahmed_7oSkaa",
-            icon: "https://www.edigitalagency.com.au/wp-content/uploads/Twitter-logo-png.png"
+            icon: "https://iili.io/HaYEPVa.webp"
         }
     ],
     languages: [

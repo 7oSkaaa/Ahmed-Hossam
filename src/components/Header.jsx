@@ -55,7 +55,7 @@ export default function Header({ resumeData }) {
                 >
                     <div>
                         <img
-                            src="https://iili.io/HuYX494.png"
+                            src="https://iili.io/Ha7sVI9.webp"
                             alt="me"
                             sizes="50px"
                             className="hidden_img"
