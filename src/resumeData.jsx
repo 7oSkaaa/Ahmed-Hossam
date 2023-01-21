@@ -66,7 +66,7 @@ let resumeData = {
     education: [
         {
             UniversityName: "Suez Canal University",
-            specialization: "Computer Science and Software Engineering",
+            specialization: "Computer Science",
             MonthOfPassing: "Sep",
             YearOfPassing: "2019",
             Achievements: "🏆 2x ACPC Finalist",
