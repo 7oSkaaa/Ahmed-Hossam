@@ -17,7 +17,8 @@ export default function About({ resumeData }) {
                         {resumeData.aboutme.map((item, idx) => {
                             return (
                                 <li
-                                    style={{ ...{ margin: "1rem" } }}
+                                    style={{ ...{display: "flex", margin: "1rem" , overflowWrap: "anywhere", flexWrap: "wrap", wordWrap: 'break-word'
+                                } }}
                                     key={idx}
                                     dangerouslySetInnerHTML={{
                                         __html: item,
