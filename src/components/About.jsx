@@ -35,7 +35,11 @@ export default function About({ resumeData }) {
                                 <br></br>
                                 <span>{resumeData.address}</span>
                                 <br></br>
-                                <span>{resumeData.number}</span>
+                                <span
+                                    dangerouslySetInnerHTML={{
+                                        __html: resumeData.number,
+                                    }}
+                                />
                             </p>
                         </div>
                     </div>

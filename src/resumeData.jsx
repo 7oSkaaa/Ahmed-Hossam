@@ -62,7 +62,7 @@ let resumeData = {
         '🤓 Always learning new things.',
     ],
     address: "Port Said, Egypt",
-    number: "+201208822340",
+    number: '<a href="tel:+201208822340"> 01208822340 </a>',
     education: [
         {
             UniversityName: "Suez Canal University",
