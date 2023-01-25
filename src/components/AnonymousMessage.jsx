@@ -8,10 +8,14 @@ export default function AnonymousMessage() {
     const [isShow, setIsShow] = useState(false);
     const [message, setMessage] = useState('');
     const [text, setText] = useState('');
-
+    const [user_name, setUserName] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        if(form.current.user_name.value === ''){
+            form.current.user_name.value = 'Anonymous';
+        }
 
         emailjs
             .sendForm(
@@ -24,13 +28,16 @@ export default function AnonymousMessage() {
                 (result) => {
                     setIsSent(true);
                     setIsShow(true);
+                    console.log(user_name);
                     document.getElementById('anonymous_textarea').innerHTML = '';
+                    document.getElementById('anonymous_name').innerHTML = '';
                     setText('');
+                    setUserName('');
                 },
                 (error) => {
                     setIsSent(false);
                     setIsShow(true);
-                    setMessage(error.text)
+                    setMessage(error.text);
                 }
             );
     };
@@ -38,6 +45,14 @@ export default function AnonymousMessage() {
     return (
         <form ref={form} onSubmit={sendEmail} className="anonymous_section">
             <label className="anonymous_label">Message</label>
+            <input
+                name="user_name"
+                className="anonymous_textarea"
+                placeholder="Write your name here or leave it empty ..."
+                id="anonymous_name"
+                onChange={event => setUserName(event.target.value === '' ? 'Anonymous' : event.target.value)}
+                value={user_name}
+            />
             <textarea
                 name="message"
                 className="anonymous_textarea"
