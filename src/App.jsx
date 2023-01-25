@@ -33,12 +33,8 @@ function App() {
         fetch(process.env.REACT_APP_BIN_URL)
             .then((res) => res.json())
             .then((res) => {
-                setResumeData(res.record);
+                setResumeData(res);
                 setFetched(true);
-                console.log(process.env.REACT_APP_BIN_URL);
-                console.log(res.record);
-                console.log(resumeData);
-                console.log(fetched);
             });
     }, [resumeData, fetched]);
 
