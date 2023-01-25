@@ -6,12 +6,12 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
-import resumeData from "./resumeData";
 import AnonymousMessage from "./components/AnonymousMessage";
+import MoonLoader from 'react-spinners/MoonLoader'
 
-function App() {
+function Page({resumeData}){
     return (
-        <div className="App">
+        <>
             <Header resumeData={resumeData} />
             <About resumeData={resumeData} />
             <Resume resumeData={resumeData} />
@@ -20,7 +20,33 @@ function App() {
             <ContactUs resumeData={resumeData} />
             <Testimonials resumeData={resumeData} />
             <Footer resumeData={resumeData} />
+        </>
+    )
+}
+
+function App() {
+
+    const [fetched, setFetched] = React.useState(false);
+    let [resumeData, setResumeData] = React.useState({});
+
+    React.useEffect(() => {
+        fetch(process.env.REACT_APP_BIN_URL)
+            .then((res) => res.json())
+            .then((res) => {
+                setResumeData(res.record);
+                setFetched(true);
+                console.log(process.env.REACT_APP_BIN_URL);
+                console.log(res.record);
+                console.log(resumeData);
+                console.log(fetched);
+            });
+    }, [resumeData, fetched]);
+
+    return (
+        <div className="App">
+            {fetched ? <Page resumeData={resumeData} /> : <div className='Loader_Container'><MoonLoader className='Loader' color={'#00CCCC'} loading={!fetched} size={120}/></div>}
         </div>
+        
     );
 }
 

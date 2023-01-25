@@ -2,7 +2,8 @@ let resumeData = {
     imagebaseurl: "https://iili.io/Ha7Lb8Q.webp",
     name: "Ahmed Hossam",
     role: "Full Stack Developer",
-    Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
+    Resume:
+        "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
     roleDescription: [
         "🏫  I'm Full Stack Developer @Bld.ai",
         "💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
@@ -55,11 +56,11 @@ let resumeData = {
     aboutme: [
         '🧑‍💼 I\'m Full Stack Developer <a href="https://www.bld.ai/" target="_blank">&nbsp@Bld.ai</a>',
         '🏫 I am a Senior&nbspat&nbsp<a href="https://cutt.ly/FCI_SCU" target="_blank">faculty of Computers & Informatics</a>&nbspat&nbsp<a href="http://suez.edu.eg/ar/" target="_blank">Suez Canal University</a>.',
-        '🏆 2x ACPC Finalist.',
-        '🧑🏻‍💻 I love using Software as a solution for every Problem.',
+        "🏆 2x ACPC Finalist.",
+        "🧑🏻‍💻 I love using Software as a solution for every Problem.",
         '💻  I\'m Competitive Programmer @ <a href="https://codeforces.com/profile/7oSkaaa/" target="_blank">Codeforces</a>,&nbsp<a href="https://atcoder.jp/users/ahmed_7oSkaa/" target="_blank">AtCoder</a>,&nbsp<a href="https://leetcode.com/7oSkaa/" target="_blank">LeetCode</a>,&nbsp<a href="https://www.codechef.com/users/ahmed_7oskaa" target="_blank">CodeChef</a>&nbspand&nbsp<a href="https://codingcompetitions.withgoogle.com/" target="_blank">Google Contests</a>.',
-        '🧑🏻‍🎓 I\'m currently learning Computer Science and Software Engineering.',
-        '🤓 Always learning new things.',
+        "🧑🏻‍🎓 I'm currently learning Computer Science and Software Engineering.",
+        "🤓 Always learning new things.",
     ],
     address: "Port Said, Egypt",
     number: '<a href="tel:+201208822340"> 01208822340 </a>',
@@ -88,7 +89,7 @@ let resumeData = {
                 "Building a Terminal CLI Command and Syncing it with the extension.",
                 "Linking the extension with Google Sheets API to log the worklogs.",
                 "Building an App Script to automate the Calendar Events and the worklogs.",
-            ]
+            ],
         },
         {
             CompanyName: "Bld.ai",
@@ -114,27 +115,27 @@ let resumeData = {
             Achievements: [
                 'Worked in projects to ease the work in the community, like <a href="https://github.com/7oSkaaa/board-link-generator" target="_blank">ICPC SCU Score Board</a>',
                 'Wrote <a href="https://codeforces.com/group/p6hc42ieQe/contests" target="_blank">contests</a> and <a href="https://codeforces.com/group/nm0n1RosrQ/blog" target="_blank">make two Ramadan Challenges</a>',
-                'Made alot of <a href="https://github.com/7oSkaaa/Competitive-Programming-Session-Content" target="_blank">Sessions & Sheets</a>'
-            ]
+                'Made alot of <a href="https://github.com/7oSkaaa/Competitive-Programming-Session-Content" target="_blank">Sessions & Sheets</a>',
+            ],
         },
         {
             CommunityName: "TROSC Suez Canal University",
             specialization: "IT Head",
             Achievements: [
-                'Wrote Articles',
-                'Mentor for workshops',
-                'Speaker in events'
-            ]
+                "Wrote Articles",
+                "Mentor for workshops",
+                "Speaker in events",
+            ],
         },
         {
             CommunityName: "GDSC Suez Canal University",
             specialization: "IT Member",
             Achievements: [
                 'Made <a href="https://www.youtube.com/watch?v=jumthVJ28Ic&list=PLcx76tvrepdeXL26IKNDd12XYLTWHpZlP" target="_blank">Playlist</a> for how to connect between Discrete Mathematics and Computer Science',
-                'Mentor for workshops',
-                'Speaker in events'
-            ]
-        }
+                "Mentor for workshops",
+                "Speaker in events",
+            ],
+        },
     ],
     Competitions: [
         {
@@ -142,17 +143,17 @@ let resumeData = {
             Ranks: [
                 "<i>76</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ACPC 21'",
                 "<i>56</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ACPC 22'",
-            ]
+            ],
         },
         {
             CompetitionName: "ECPC",
             Ranks: [
                 "<i>48</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 21' and qualified to ACPC 21'",
                 "<i>26</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 22' and qualified to ACPC 22'",
-            ]
+            ],
         },
     ],
-    skills:[
+    skills: [
         {
             skillsDescription: "PROGRAMMING",
             skillsSection: [
@@ -188,7 +189,7 @@ let resumeData = {
                     skillname: "SQL",
                     rate: "60",
                 },
-            ]
+            ],
         },
         {
             skillsDescription: "TOOLS and Concepts",
@@ -223,13 +224,13 @@ let resumeData = {
                 },
                 {
                     skillname: "Object Oriented Programming",
-                    rate: "90", 
+                    rate: "90",
                 },
                 {
                     skillname: "Design Patterns",
                     rate: "70",
                 },
-            ]
+            ],
         },
         {
             skillsDescription: "Miscellaneous",
@@ -248,7 +249,7 @@ let resumeData = {
                 },
                 {
                     skillname: "LaTeX",
-                    rate: "80", 
+                    rate: "80",
                 },
                 {
                     skillname: "Markdown",
@@ -263,10 +264,11 @@ let resumeData = {
                     rate: "80",
                 },
                 {
-                    skillname: "Google Documents (Docs, Sheets, Slides, Forms, etc.)",
+                    skillname:
+                        "Google Documents (Docs, Sheets, Slides, Forms, etc.)",
                     rate: "100",
                 },
-            ]
+            ],
         },
         {
             skillsDescription: "FRAMEWORKS",
@@ -282,8 +284,8 @@ let resumeData = {
                 {
                     skillname: "React Native",
                     rate: "70",
-                }
-            ]
+                },
+            ],
         },
         {
             skillsDescription: "OPERATING SYSTEMS",
@@ -295,8 +297,8 @@ let resumeData = {
                 {
                     skillname: "Linux",
                     rate: "95",
-                }
-            ]
+                },
+            ],
         },
     ],
     portfolio: [
@@ -308,46 +310,50 @@ let resumeData = {
         },
         {
             name: "Board Generator for ICPC Community",
-            description: "Generate Board for Trainees in ICPC Community to check their progress in the sheets.",
+            description:
+                "Generate Board for Trainees in ICPC Community to check their progress in the sheets.",
             imgurl: "board.png",
-            url: "https://github.com/7oSkaaa/board-link-generator"
+            url: "https://github.com/7oSkaaa/board-link-generator",
         },
         {
             name: "Tic-Tac-Toe with GUI",
-            description: "Tic Tac Toe GUI game with Java you can play it individual vs computer or with your friend.",
+            description:
+                "Tic Tac Toe GUI game with Java you can play it individual vs computer or with your friend.",
             imgurl: "tic_tac_toe.webp",
-            url: "https://github.com/7oSkaaa/Tic-Tac-Toe-GUI"
+            url: "https://github.com/7oSkaaa/Tic-Tac-Toe-GUI",
         },
         {
             name: "Sorting Algorithms visualizer",
-            description: "Sorting algorithms visualizer with all information about the algorithm, and the code with various languages (C++, JS, Java, C, Python).",
+            description:
+                "Sorting algorithms visualizer with all information about the algorithm, and the code with various languages (C++, JS, Java, C, Python).",
             imgurl: "Sorting-algorithm.webp",
-            url: "https://github.com/7oSkaaa/Sorting-Algorithms"
+            url: "https://github.com/7oSkaaa/Sorting-Algorithms",
         },
         {
-
             name: "Competitive Programmer's Calendar",
-            description: "Competitive programming calendar to reminder you contests' time with you google calendar.",
+            description:
+                "Competitive programming calendar to reminder you contests' time with you google calendar.",
             imgurl: "cp_calendar.png",
-            url: "https://github.com/7oSkaaa/CP-Calendar"
+            url: "https://github.com/7oSkaaa/CP-Calendar",
         },
         {
             name: "Stress Testing",
-            description: "Stress testing for your code to check if it's correct or not.",
+            description:
+                "Stress testing for your code to check if it's correct or not.",
             imgurl: "stress-testing.jpg",
-            url: "https://github.com/7oSkaaa/Stress_Testing"
+            url: "https://github.com/7oSkaaa/Stress_Testing",
         },
         {
             name: "Phone Book System",
             description: "Phone Book System with OOP concept make with C++.",
             imgurl: "phone_management.png",
-            url: "https://github.com/7oSkaaa/PhoneBook-System"
+            url: "https://github.com/7oSkaaa/PhoneBook-System",
         },
         {
             name: "Shorten Link",
             description: "Make shorten URL with Cuttly API",
             imgurl: "url-shortener.png",
-            url: "https://github.com/7oSkaaa/Shorten-Link"
+            url: "https://github.com/7oSkaaa/Shorten-Link",
         },
         {
             name: "Image Proccessing",
@@ -357,7 +363,8 @@ let resumeData = {
         },
         {
             name: "Codeforces Friends Script",
-            description: "Script to add friends on Codeforces by write them handle's on txt file",
+            description:
+                "Script to add friends on Codeforces by write them handle's on txt file",
             imgurl: "codeforces.png",
             url: "https://github.com/7oSkaaa/Codeforces-Friends-Script",
         },
@@ -365,7 +372,7 @@ let resumeData = {
             name: "Codeforces Polygon Template",
             description: "Polygon Template for Codeforces Contests",
             imgurl: "polygon.png",
-            url: "https://github.com/7oSkaaa/Codeforces-Polygon-Template"
+            url: "https://github.com/7oSkaaa/Codeforces-Polygon-Template",
         },
         {
             name: "CP Templates",
@@ -377,22 +384,26 @@ let resumeData = {
             name: "CP Sessions",
             description: "Sessions for Competitive Programming",
             imgurl: "cp-sessions.png",
-            url: "https://github.com/7oSkaaa/Competitive-Programming-Session-Content"
+            url:
+                "https://github.com/7oSkaaa/Competitive-Programming-Session-Content",
         },
         {
             name: "LeetCode Daily Challenge in 2023",
-            description: "LeetCode Daily Challenge in 2023 Solutions with various languages and different approaches to solve the problem with explanation.",
+            description:
+                "LeetCode Daily Challenge in 2023 Solutions with various languages and different approaches to solve the problem with explanation.",
             imgurl: "leetcode.png",
-            url: "https://github.com/7oSkaaa/LeetCode_DailyChallenge_2023"
-        }
+            url: "https://github.com/7oSkaaa/LeetCode_DailyChallenge_2023",
+        },
     ],
     testimonials: [
         {
-            description: "Hope is the belief in the probability of the possible rather than the necessity of the probable.",
+            description:
+                "Hope is the belief in the probability of the possible rather than the necessity of the probable.",
             name: "Marshall Ganz",
         },
         {
-            description: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+            description:
+                "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
             name: "Martin Fowler",
         },
         {
@@ -404,7 +415,7 @@ let resumeData = {
         {
             name: "linkedin",
             url: "https://www.linkedin.com/in/7oskaa/",
-            icon: "https://iili.io/HaY3BBR.webp"
+            icon: "https://iili.io/HaY3BBR.webp",
         },
         {
             name: "gmail",
@@ -419,28 +430,31 @@ let resumeData = {
         {
             name: "whatsapp",
             url: "https://wa.link/csfdug",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.webp"
+            icon:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.webp",
         },
         {
             name: "telegram",
             url: "https://msng.link/o/?Ahmed7oskaa=tg",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.webp"
+            icon:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.webp",
         },
         {
             name: "snapchat",
             url: "https://msng.link/o/?ahmed.7oskaa=sc",
-            icon: "https://iili.io/HaYE6og.webp"
+            icon: "https://iili.io/HaYE6og.webp",
         },
         {
             name: "instagram",
             url: "https://www.instagram.com/ahmed_7oskaa/",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.webp"
+            icon:
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.webp",
         },
         {
             name: "twitter",
             url: "https://twitter.com/Ahmed_7oSkaa",
-            icon: "https://iili.io/HaYEPVa.webp"
-        }
+            icon: "https://iili.io/HaYEPVa.webp",
+        },
     ],
     languages: [
         {
@@ -450,8 +464,9 @@ let resumeData = {
         {
             name: "English",
             rate: "85",
-        }
-    ]
+        },
+    ],
 };
+
 
 export default resumeData;

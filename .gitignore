@@ -27,3 +27,6 @@ yarn-error.log*
 
 # envoriment
 .env
+
+# Data
+/src/resumeData.jsx
