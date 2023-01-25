@@ -121,6 +121,21 @@ header .banner-text hr {
     border-color: rgba(150, 150, 150, .1);
 }
 
+.Loader_Container {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #2B2B2B;
+}
+
+.Loader {
+    position: absolute;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+}
+
 
 /* header social links */
 
