@@ -30,3 +30,4 @@ yarn-error.log*
 
 # Data
 /src/resumeData.jsx
+Data.json
