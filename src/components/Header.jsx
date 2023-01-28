@@ -24,27 +24,27 @@ export default function Header({ resumeData }) {
                         Hide navigation
                     </a>
                     <ul id="nav" className="nav">
-                        <li className={curr_tab === "home" ? "selected" : ""}>
+                        <li className={curr_tab === "home" ? "current" : ""}>
                             <a className="smoothscroll" href="#home" onClick={() => setCurrTab("home")}>
                                 Home
                             </a>
                         </li>
-                        <li className={curr_tab === "about" ? "selected" : ""}>
+                        <li className={curr_tab === "about" ? "current" : ""}>
                             <a className="smoothscroll" href="#about" onClick={() => setCurrTab("about")}>
                                 About
                             </a>
                         </li>
-                        <li className={curr_tab === "resume" ? "selected" : ""}>
+                        <li className={curr_tab === "resume" ? "current" : ""}>
                             <a className="smoothscroll" href="#resume" onClick={() => setCurrTab("resume")}>
                                 Resume
                             </a>
                         </li>
-                        <li className={curr_tab === "portfolio" ? "selected" : ""}>
+                        <li className={curr_tab === "portfolio" ? "current" : ""}>
                             <a className="smoothscroll" href="#portfolio" onClick={() => setCurrTab("portfolio")}>
                                 Works
                             </a>
                         </li>
-                        <li className={curr_tab === "contact" ? "selected" : ""}>
+                        <li className={curr_tab === "contact" ? "current" : ""}>
                             <a className="smoothscroll" href="#contact" onClick={() => setCurrTab("contact")}>
                                 Contact
                             </a>
