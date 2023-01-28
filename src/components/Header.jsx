@@ -2,6 +2,9 @@ import React from "react";
 import Typed from "react-typed";
 
 export default function Header({ resumeData }) {
+
+    const [curr_tab, setCurrTab] = React.useState("home");
+
     return (
         <React.Fragment>
             <header id="home">
@@ -21,28 +24,28 @@ export default function Header({ resumeData }) {
                         Hide navigation
                     </a>
                     <ul id="nav" className="nav">
-                        <li className="current">
-                            <a className="smoothscroll" href="#home">
+                        <li className={curr_tab === "home" ? "selected" : ""}>
+                            <a className="smoothscroll" href="#home" onClick={() => setCurrTab("home")}>
                                 Home
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#about">
+                        <li className={curr_tab === "about" ? "selected" : ""}>
+                            <a className="smoothscroll" href="#about" onClick={() => setCurrTab("about")}>
                                 About
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#resume">
+                        <li className={curr_tab === "resume" ? "selected" : ""}>
+                            <a className="smoothscroll" href="#resume" onClick={() => setCurrTab("resume")}>
                                 Resume
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#portfolio">
+                        <li className={curr_tab === "portfolio" ? "selected" : ""}>
+                            <a className="smoothscroll" href="#portfolio" onClick={() => setCurrTab("portfolio")}>
                                 Works
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#contact">
+                        <li className={curr_tab === "contact" ? "selected" : ""}>
+                            <a className="smoothscroll" href="#contact" onClick={() => setCurrTab("contact")}>
                                 Contact
                             </a>
                         </li>
