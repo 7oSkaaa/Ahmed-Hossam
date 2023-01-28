@@ -25,7 +25,7 @@ function Page({resumeData}){
 }
 
 function App() {
-
+    
     const [fetched, setFetched] = React.useState(false);
     let [resumeData, setResumeData] = React.useState({});
 

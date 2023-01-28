@@ -2,44 +2,6 @@ import React from "react";
 import Typed from "react-typed";
 
 export default function Header({ resumeData }) {
-
-    const [curr_tab, setCurrTab] = React.useState("home");
-
-    function isBottom(el){
-        return el.getBoundingClientRect().bottom <= window.innerHeight;
-    }
-
-    const trackScrolling = () => {
-
-        const homeWrapped = document.getElementById('home');
-        const aboutWrapped = document.getElementById('about');
-        const resumerapped = document.getElementById('resume');
-        const portfolioWrapped = document.getElementById('portfolio');
-        const contactWrapped = document.getElementById('contact');
-
-        if (this.isBottom(homeWrapped)) {
-            setCurrTab("home");
-            document.removeEventListener('scroll', trackScrolling);
-        }
-        if (this.isBottom(aboutWrapped)) {
-            setCurrTab("about");
-            document.removeEventListener('scroll', trackScrolling);
-        }
-        if (this.isBottom(resumerapped)) {
-            setCurrTab("resume");
-            document.removeEventListener('scroll', trackScrolling);
-        }
-        if (this.isBottom(portfolioWrapped)) {
-            setCurrTab("portfolio");
-            document.removeEventListener('scroll', trackScrolling);
-        }
-        if (this.isBottom(contactWrapped)) {
-            setCurrTab("contact");
-            document.removeEventListener('scroll', trackScrolling);
-        }
-    };
-
-
     return (
         <React.Fragment>
             <header id="home">
@@ -59,28 +21,28 @@ export default function Header({ resumeData }) {
                         Hide navigation
                     </a>
                     <ul id="nav" className="nav">
-                        <li className={curr_tab === "home" ? "current" : ""}>
-                            <a className="smoothscroll" href="#home" onClick={() => setCurrTab("home")}>
+                        <li className="current">
+                            <a className="smoothscroll" href="#home">
                                 Home
                             </a>
                         </li>
-                        <li className={curr_tab === "about" ? "current" : ""}>
-                            <a className="smoothscroll" href="#about" onClick={() => setCurrTab("about")}>
+                        <li>
+                            <a className="smoothscroll" href="#about">
                                 About
                             </a>
                         </li>
-                        <li className={curr_tab === "resume" ? "current" : ""}>
-                            <a className="smoothscroll" href="#resume" onClick={() => setCurrTab("resume")}>
+                        <li>
+                            <a className="smoothscroll" href="#resume">
                                 Resume
                             </a>
                         </li>
-                        <li className={curr_tab === "portfolio" ? "current" : ""}>
-                            <a className="smoothscroll" href="#portfolio" onClick={() => setCurrTab("portfolio")}>
+                        <li>
+                            <a className="smoothscroll" href="#portfolio">
                                 Works
                             </a>
                         </li>
-                        <li className={curr_tab === "contact" ? "current" : ""}>
-                            <a className="smoothscroll" href="#contact" onClick={() => setCurrTab("contact")}>
+                        <li>
+                            <a className="smoothscroll" href="#contact">
                                 Contact
                             </a>
                         </li>
@@ -93,7 +55,7 @@ export default function Header({ resumeData }) {
                 >
                     <div>
                         <img
-                            src="https://iili.io/Ha7sVI9.webp"
+                            src="https://iili.io/HuYX494.png"
                             alt="me"
                             sizes="50px"
                             className="hidden_img"
