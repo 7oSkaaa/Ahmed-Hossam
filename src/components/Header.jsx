@@ -5,6 +5,41 @@ export default function Header({ resumeData }) {
 
     const [curr_tab, setCurrTab] = React.useState("home");
 
+    function isBottom(el){
+        return el.getBoundingClientRect().bottom <= window.innerHeight;
+    }
+
+    trackScrolling = () => {
+
+        const homeWrapped = document.getElementById('home');
+        const aboutWrapped = document.getElementById('about');
+        const resumerapped = document.getElementById('resume');
+        const portfolioWrapped = document.getElementById('portfolio');
+        const contactWrapped = document.getElementById('contact');
+
+        if (this.isBottom(homeWrapped)) {
+            setCurrTab("home");
+            document.removeEventListener('scroll', trackScrolling);
+        }
+        if (this.isBottom(aboutWrapped)) {
+            setCurrTab("about");
+            document.removeEventListener('scroll', trackScrolling);
+        }
+        if (this.isBottom(resumerapped)) {
+            setCurrTab("resume");
+            document.removeEventListener('scroll', trackScrolling);
+        }
+        if (this.isBottom(portfolioWrapped)) {
+            setCurrTab("portfolio");
+            document.removeEventListener('scroll', trackScrolling);
+        }
+        if (this.isBottom(contactWrapped)) {
+            setCurrTab("contact");
+            document.removeEventListener('scroll', trackScrolling);
+        }
+    };
+
+
     return (
         <React.Fragment>
             <header id="home">
