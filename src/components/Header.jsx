@@ -9,7 +9,7 @@ export default function Header({ resumeData }) {
         return el.getBoundingClientRect().bottom <= window.innerHeight;
     }
 
-    trackScrolling = () => {
+    const trackScrolling = () => {
 
         const homeWrapped = document.getElementById('home');
         const aboutWrapped = document.getElementById('about');
