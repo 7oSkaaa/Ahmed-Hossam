@@ -7,7 +7,7 @@ import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import AnonymousMessage from "./components/AnonymousMessage";
-import resumeData from "./components/resumeData";
+import resumeData from "./resumeData";
 
 function App() {
     return (
