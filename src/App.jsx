@@ -9,21 +9,6 @@ import Footer from "./components/Footer";
 import AnonymousMessage from "./components/AnonymousMessage";
 import MoonLoader from 'react-spinners/MoonLoader'
 
-function Page({resumeData}){
-    return (
-        <>
-            <Header resumeData={resumeData} />
-            <About resumeData={resumeData} />
-            <Resume resumeData={resumeData} />
-            <Projects resumeData={resumeData} />
-            <AnonymousMessage />
-            <ContactUs resumeData={resumeData} />
-            <Testimonials resumeData={resumeData} />
-            <Footer resumeData={resumeData} />
-        </>
-    )
-}
-
 function App() {
     
     const [fetched, setFetched] = React.useState(false);
@@ -38,12 +23,24 @@ function App() {
             });
     }, [resumeData, fetched]);
 
-    return (
-        <div className="App">
-            {fetched ? <Page resumeData={resumeData} /> : <div className='Loader_Container'><MoonLoader className='Loader' color={'#00CCCC'} loading={!fetched} size={120}/></div>}
-        </div>
-        
-    );
+    if(fetched){
+        return (
+            <div className="App">
+                <Header resumeData={resumeData} />
+                <About resumeData={resumeData} />
+                <Resume resumeData={resumeData} />
+                <Projects resumeData={resumeData} />
+                <AnonymousMessage />
+                <ContactUs resumeData={resumeData} />
+                <Testimonials resumeData={resumeData} />
+                <Footer resumeData={resumeData} />
+            </div>
+        );
+    }else {
+        return (
+            <div className='Loader_Container'><MoonLoader className='Loader' color={'#00CCCC'} loading={!fetched} size={120}/></div>
+        );
+    }
 }
 
 export default App;
