@@ -2,6 +2,21 @@ import React from "react";
 import Typed from "react-typed";
 
 export default function Header({ resumeData }) {
+    
+    const [show, setShow] = React.useState(window.innerWidth >= 768);
+    
+    React.useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 768) {
+                setShow(true);
+            } else {
+                setShow(false);
+            }
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, [show]);
+
     return (
         <React.Fragment>
             <header id="home">
@@ -10,17 +25,19 @@ export default function Header({ resumeData }) {
                         className="mobile-btn"
                         href="#nav-wrap"
                         title="Show navigation"
+                        onClick={() => setShow(show)}
                     >
                         Show navigation
                     </a>
                     <a
                         className="mobile-btn"
-                        href="/Ahmed-Hossam/"
+                        href="#nav-wrap"
                         title="Hide navigation"
+                        onClick={() => setShow(!show)}
                     >
                         Hide navigation
                     </a>
-                    <ul id="nav" className="nav">
+                    <ul id="nav" className={show? "nav" : "hidden_nav"}>
                         <li className="current">
                             <a className="smoothscroll" href="#home">
                                 Home
