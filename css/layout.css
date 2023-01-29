@@ -254,6 +254,10 @@ ul#nav a {
     display: inline-block;
 }
 
+#home>#nav-wrap>ul.hidden_nav {
+    display: none !important;
+}
+
 
 /* Links */
 
