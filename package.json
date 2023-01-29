@@ -13,6 +13,7 @@
         "bootstrap": "^5.2.3",
         "jquery": "^3.6.3",
         "react": "^16.14.0",
+        "react-active-menu": "^0.0.14",
         "react-alert": "^7.0.3",
         "react-bootstrap": "^2.7.0",
         "react-dom": "^16.14.0",

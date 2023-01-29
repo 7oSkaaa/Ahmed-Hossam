@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function About({ resumeData }) {
     return (
         <section id="about">
