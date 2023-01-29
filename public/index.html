@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1,
       shrink-to-fit=no" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
+
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -35,7 +38,7 @@
 </head>
 
 <body>
-    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- <noscript> You need to enable JavaScript to run this app. </noscript> -->
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -47,14 +50,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
         window.jQuery ||
             document.write(
                 '<script src="%PUBLIC_URL%/js/jquery-1.10.2.min.js"><\/script>'
             );
     </script>
-    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-migrate-1.2.0.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="%PUBLIC_URL%/js/jquery.flexslider.js"></script>
     <script src="%PUBLIC_URL%/js/waypoints.js"></script>
     <script src="%PUBLIC_URL%/js/jquery.fittext.js"></script>
@@ -63,6 +65,12 @@
     <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
     <script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js" crossorigin>
     </script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin>
     </script>
 </body>
