@@ -399,6 +399,18 @@ let resumeData = {
             description: "Make it work, make it right, make it fast",
             name: "Kent Beck",
         },
+        {
+            description: "The greatest glory in living lies not in never falling, but in rising every time we fall",
+            name: "Nelson Mandela",
+        },
+        {
+            description: "Coding like poetry should be short and concise",
+            name: "Santosh Kalwar",
+        },
+        {
+            description: "Of course, bad code can be cleaned up. But it's very expensive",
+            name: "Robert C. Martin",
+        }
     ],
     inTouch: [
         {
