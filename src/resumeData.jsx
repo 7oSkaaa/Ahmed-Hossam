@@ -178,11 +178,11 @@ let resumeData = {
                 },
                 {
                     skillname: "HTML",
-                    rate: "75",
+                    rate: "80",
                 },
                 {
                     skillname: "CSS",
-                    rate: "70",
+                    rate: "80",
                 },
                 {
                     skillname: "SQL",
@@ -195,15 +195,15 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "GitHub",
-                    rate: "90",
+                    rate: "100",
                 },
                 {
                     skillname: "GitLab",
-                    rate: "90",
+                    rate: "100",
                 },
                 {
                     skillname: "Google Cloud",
-                    rate: "70",
+                    rate: "80",
                 },
                 {
                     skillname: "Problem Solving",
@@ -236,11 +236,11 @@ let resumeData = {
             skillsSection: [
                 {
                     skillname: "Git",
-                    rate: "90",
+                    rate: "100",
                 },
                 {
                     skillname: "Bash",
-                    rate: "60",
+                    rate: "70",
                 },
                 {
                     skillname: "Shell",
@@ -248,7 +248,7 @@ let resumeData = {
                 },
                 {
                     skillname: "LaTeX",
-                    rate: "80", 
+                    rate: "90", 
                 },
                 {
                     skillname: "Markdown",
@@ -260,7 +260,7 @@ let resumeData = {
                 },
                 {
                     skillname: "Web Scraping",
-                    rate: "80",
+                    rate: "90",
                 },
                 {
                     skillname: "Google Documents (Docs, Sheets, Slides, Forms, etc.)",
@@ -277,11 +277,11 @@ let resumeData = {
                 },
                 {
                     skillname: "React JS",
-                    rate: "80",
+                    rate: "90",
                 },
                 {
                     skillname: "React Native",
-                    rate: "70",
+                    rate: "90",
                 }
             ]
         },
@@ -294,12 +294,18 @@ let resumeData = {
                 },
                 {
                     skillname: "Linux",
-                    rate: "95",
+                    rate: "100",
                 }
             ]
         },
     ],
     portfolio: [
+        {
+			name: "Etlas",
+			description: "Gradution Project",
+			imgurl: "portfolio.png",
+			url: "https://github.com/Etlas-SCU/Etlas-Android"
+		},
         {
             name: "Udemy Courses",
             description: "Responsive Website for all devices with real data.",
