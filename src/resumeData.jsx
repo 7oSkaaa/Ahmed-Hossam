@@ -4,12 +4,12 @@ let resumeData = {
     role: "Full Stack Developer",
     Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
     roleDescription: [
-        "🏫  I'm Full Stack Developer @Bld.ai",
-        "💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
-        "🧑🏻‍🎓  I'm a Senior at faculty of Computers &amp; Informatics at Suez Canal University.",
-        "🏆  I'm a 2x ACPC Finalist.",
-        "🤓  Always learning new things.",
-    ],
+		"🏫  I'm Full Stack Developer",
+		"💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
+		"🧑🏻‍🎓  I am a Fresh Graduate from the Faculty of Computers & Informatics at Suez Canal University.",
+		"🏆  I'm a 2x ACPC Finalist.",
+		"🤓  Always learning new things."
+	],
     socialLinks: [
         {
             name: "linkedin",
@@ -53,14 +53,14 @@ let resumeData = {
         },
     ],
     aboutme: [
-        '🧑‍💼 I\'m Full Stack Developer <a href="https://www.bld.ai/" target="_blank">&nbsp@Bld.ai</a>',
-        '🏫 I am a Senior&nbspat&nbsp<a href="https://cutt.ly/FCI_SCU" target="_blank">faculty of Computers & Informatics</a>&nbspat&nbsp<a href="http://suez.edu.eg/ar/" target="_blank">Suez Canal University</a>.',
-        '🏆 2x ACPC Finalist.',
-        '🧑🏻‍💻 I love using Software as a solution for every Problem.',
-        '💻  I\'m Competitive Programmer @ <a href="https://codeforces.com/profile/7oSkaaa/" target="_blank">Codeforces</a>,&nbsp<a href="https://atcoder.jp/users/ahmed_7oSkaa/" target="_blank">AtCoder</a>,&nbsp<a href="https://leetcode.com/7oSkaa/" target="_blank">LeetCode</a>,&nbsp<a href="https://www.codechef.com/users/ahmed_7oskaa" target="_blank">CodeChef</a>&nbspand&nbsp<a href="https://codingcompetitions.withgoogle.com/" target="_blank">Google Contests</a>.',
-        '🧑🏻‍🎓 I\'m currently learning Computer Science and Software Engineering.',
-        '🤓 Always learning new things.',
-    ],
+		"🧑‍💼 I'm Full Stack Developer",
+		"🏫 I am a Fresh Graduate&nbspfrom&nbsp<a href=\"https://cutt.ly/FCI_SCU\" target=\"_blank\">faculty of Computers & Informatics</a>&nbspat&nbsp<a href=\"http://suez.edu.eg/ar/\" target=\"_blank\">Suez Canal University</a>.",
+		"🏆 2x ACPC Finalist.",
+		"🧑🏻‍💻 I love using Software as a solution for every Problem.",
+		"💻  I'm Competitive Programmer @ <a href=\"https://codeforces.com/profile/7oSkaaa/\" target=\"_blank\">Codeforces</a>,&nbsp<a href=\"https://atcoder.jp/users/ahmed_7oSkaa/\" target=\"_blank\">AtCoder</a>,&nbsp<a href=\"https://leetcode.com/7oSkaa/\" target=\"_blank\">LeetCode</a>,&nbsp<a href=\"https://www.codechef.com/users/ahmed_7oskaa\" target=\"_blank\">CodeChef</a>&nbspand&nbsp<a href=\"https://codingcompetitions.withgoogle.com/\" target=\"_blank\">Google Contests</a>.",
+		"🧑🏻‍🎓 I'm currently learning Computer Science and Software Engineering.",
+		"🤓 Always learning new things."
+	],
     address: "Port Said, Egypt",
     number: '<a href="tel:+201208822340"> 01208822340 </a>',
     education: [
@@ -81,7 +81,8 @@ let resumeData = {
             specialization: "Full Stack Developer",
             MonthOfJoining: "Nov",
             YearOfJoining: "2022",
-            MonthOfLeaving: "Present",
+            MonthOfLeaving: "January",
+			YearOfLeaving: "2023",
             Achievements: [
                 "Building an Extension for web browsers to help developrs to log thier worklogs and track thier time.",
                 "Building a landing page for the extension.",
@@ -112,28 +113,28 @@ let resumeData = {
             CommunityName: "ICPC Suez Canal University",
             specialization: "Community Head",
             Achievements: [
-                'Worked in projects to ease the work in the community, like <a href="https://github.com/7oSkaaa/board-link-generator" target="_blank">ICPC SCU Score Board</a>',
-                'Wrote <a href="https://codeforces.com/group/p6hc42ieQe/contests" target="_blank">contests</a> and <a href="https://codeforces.com/group/nm0n1RosrQ/blog" target="_blank">make two Ramadan Challenges</a>',
-                'Made alot of <a href="https://github.com/7oSkaaa/Competitive-Programming-Session-Content" target="_blank">Sessions & Sheets</a>'
-            ]
+				"Contributed to community-driven projects aimed at enhancing efficiency, such as the <a href=\"https://github.com/7oSkaaa/board-link-generator\" target=\"_blank\">ICPC SCU Score Board</a> project available on GitHub.",
+				"Authored contests and created two Ramadan Challenges, accessible at <a href=\"https://codeforces.com/group/p6hc42ieQe/contests\" target=\"_blank\">contests</a> and <a href=\"https://codeforces.com/group/nm0n1RosrQ/blog\" target=\"_blank\">make two Ramadan Challenges</a> respectively.",
+				"Created sessions and study materials available at <a href=\"https://github.com/7oSkaaa/Competitive-Programming-Session-Content\" target=\"_blank\">Sessions & Sheets</a>."
+			]
         },
         {
             CommunityName: "TROSC Suez Canal University",
             specialization: "IT Head",
             Achievements: [
-                'Wrote Articles',
-                'Mentor for workshops',
-                'Speaker in events'
-            ]
+				"Wrote articles on various IT topics.",
+				"Mentored participants in workshops on IT skills and technologies.",
+				"Presented as a speaker in multiple events, delivering informative talks on IT subjects."
+			]
         },
         {
             CommunityName: "GDSC Suez Canal University",
             specialization: "IT Member",
             Achievements: [
-                'Made <a href="https://www.youtube.com/watch?v=jumthVJ28Ic&list=PLcx76tvrepdeXL26IKNDd12XYLTWHpZlP" target="_blank">Playlist</a> for how to connect between Discrete Mathematics and Computer Science',
-                'Mentor for workshops',
-                'Speaker in events'
-            ]
+				"Created a <a href=\"https://www.youtube.com/watch?v=jumthVJ28Ic&list=PLcx76tvrepdeXL26IKNDd12XYLTWHpZlP\" target=\"_blank\">playlist</a> demonstrating the connection between Discrete Mathematics and Computer Science.",
+				"Mentor for workshops",
+				"Developed a playlist for learning C++."
+			]
         }
     ],
     Competitions: [
@@ -229,6 +230,22 @@ let resumeData = {
                     skillname: "Design Patterns",
                     rate: "70",
                 },
+                {
+					skillname: "Trello",
+					rate: "80"
+				},
+				{
+					skillname: "Swagger",
+					rate: "95"
+				},
+				{
+					skillname: "Figma",
+					rate: "80"
+				},
+				{
+					skillname: "Postman",
+					rate: "90"
+				}
             ]
         },
         {
@@ -302,7 +319,7 @@ let resumeData = {
     portfolio: [
         {
 			name: "Etlas",
-			description: "Gradution Project",
+			description: "Electornic Guide for tourists in Egypt, with a website and an android app.",
 			imgurl: "portfolio.png",
 			url: "https://github.com/Etlas-SCU/Etlas-Android"
 		},
