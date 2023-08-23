@@ -55,7 +55,7 @@ let resumeData = {
     aboutme: [
 		"🧑‍💼 I'm Full Stack Developer",
 		"🏫 I am a Fresh Graduate&nbspfrom&nbsp<a href=\"https://cutt.ly/FCI_SCU\" target=\"_blank\">faculty of Computers & Informatics</a>&nbspat&nbsp<a href=\"http://suez.edu.eg/ar/\" target=\"_blank\">Suez Canal University</a>.",
-		"🏆 2x ACPC Finalist.",
+		"🏆 3x ACPC Finalist.",
 		"🧑🏻‍💻 I love using Software as a solution for every Problem.",
 		"💻  I'm Competitive Programmer @ <a href=\"https://codeforces.com/profile/7oSkaaa/\" target=\"_blank\">Codeforces</a>,&nbsp<a href=\"https://atcoder.jp/users/ahmed_7oSkaa/\" target=\"_blank\">AtCoder</a>,&nbsp<a href=\"https://leetcode.com/7oSkaa/\" target=\"_blank\">LeetCode</a>,&nbsp<a href=\"https://www.codechef.com/users/ahmed_7oskaa\" target=\"_blank\">CodeChef</a>&nbspand&nbsp<a href=\"https://codingcompetitions.withgoogle.com/\" target=\"_blank\">Google Contests</a>.",
 		"🧑🏻‍🎓 I'm currently learning Computer Science and Software Engineering.",
