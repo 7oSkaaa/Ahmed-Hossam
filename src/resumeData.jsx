@@ -7,7 +7,7 @@ let resumeData = {
 		"🏫  I'm Full Stack Developer",
 		"💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
 		"🧑🏻‍🎓  I am a Fresh Graduate from the Faculty of Computers & Informatics at Suez Canal University.",
-		"🏆  I'm a 2x ACPC Finalist.",
+		"🏆  I'm a 3x ACPC Finalist.",
 		"🤓  Always learning new things."
 	],
     socialLinks: [
@@ -71,14 +71,14 @@ let resumeData = {
             YearOfJoin: "2019",
             MonthOfLeaving: "July",
             YearOfLeaving: "2023",
-            Achievements: "🏆 2x ACPC Finalist",
+            Achievements: "🏆 3x ACPC Finalist",
         },
     ],
     work: [
         {
-            CompanyName: "Bld.ai",
+            CompanyName: "bld.ai",
             Type: "Part Time",
-            specialization: "Full Stack Developer",
+            specialization: "Software Engineer",
             MonthOfJoining: "Nov",
             YearOfJoining: "2022",
             MonthOfLeaving: "January",
@@ -92,9 +92,9 @@ let resumeData = {
             ]
         },
         {
-            CompanyName: "Bld.ai",
-            Type: "Intern",
-            specialization: "Full Stack Developer",
+            CompanyName: "bld.ai",
+            Type: "Internship",
+            specialization: "Full Stack Developer Intern",
             MonthOfJoining: "July",
             YearOfJoining: "2022",
             MonthOfLeaving: "Nov",
@@ -150,6 +150,7 @@ let resumeData = {
             Ranks: [
                 "<i>48</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 21' and qualified to ACPC 21'",
                 "<i>26</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 22' and qualified to ACPC 22'",
+                "<i>23</i>&nbsp<sup>th</sup> Place  &nbsp&mdash;&nbsp  ECPC 23' and qualified to ACPC 23'",
             ]
         },
     ],
@@ -458,12 +459,12 @@ let resumeData = {
         },
         {
             name: "telegram",
-            url: "https://msng.link/o/?Ahmed7oskaa=tg",
+            url: "https://t.me/Ahmed7oskaa",
             icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.webp"
         },
         {
             name: "snapchat",
-            url: "https://msng.link/o/?ahmed.7oskaa=sc",
+            url: "https://www.snapchat.com/add/ahmed.7oskaa?sender_web_id=894dc409-9f66-49fa-ae9e-cd213b716351&device_type=desktop&is_copy_url=true",
             icon: "https://iili.io/HaYE6og.webp"
         },
         {
