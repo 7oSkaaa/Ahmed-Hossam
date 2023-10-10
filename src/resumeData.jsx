@@ -58,7 +58,6 @@ let resumeData = {
 		"🏆 3x ACPC Finalist.",
 		"🧑🏻‍💻 I love using Software as a solution for every Problem.",
 		"💻  I'm Competitive Programmer @ <a href=\"https://codeforces.com/profile/7oSkaaa/\" target=\"_blank\">Codeforces</a>,&nbsp<a href=\"https://atcoder.jp/users/ahmed_7oSkaa/\" target=\"_blank\">AtCoder</a>,&nbsp<a href=\"https://leetcode.com/7oSkaa/\" target=\"_blank\">LeetCode</a>,&nbsp<a href=\"https://www.codechef.com/users/ahmed_7oskaa\" target=\"_blank\">CodeChef</a>&nbspand&nbsp<a href=\"https://codingcompetitions.withgoogle.com/\" target=\"_blank\">Google Contests</a>.",
-		"🧑🏻‍🎓 I'm currently learning Computer Science and Software Engineering.",
 		"🤓 Always learning new things."
 	],
     address: "Port Said, Egypt",
