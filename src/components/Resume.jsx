@@ -19,10 +19,30 @@ export default function Resume({ resumeData }) {
             <div className="row education">
                 <div className="three columns header-col">
                     <h1>
+                        <span>Summary</span>
+                    </h1>
+                </div>
+                <div className="nine columns main-col">
+                    {resumeData.summary &&
+                        resumeData.summary.map((item, idx) => {
+                            return (
+                                <div className="row item" key={idx}>
+                                    <div className="twelve columns">
+                                        <p>
+                                            {item}
+                                        </p>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                </div>
+            </div>
+            <div className="row education">
+                <div className="three columns header-col">
+                    <h1>
                         <span>Education</span>
                     </h1>
                 </div>
-
                 <div className="nine columns main-col">
                     {resumeData.education &&
                         resumeData.education.map((item, idx) => {
@@ -41,7 +61,24 @@ export default function Resume({ resumeData }) {
                                                 {item.YearOfLeaving}
                                             </em>
                                         </p>
-                                        <p>{item.Achievements}</p>
+                                        <ul style={{ listStyle: "circle" }}>
+                                            {item.Achievements &&
+                                                item.Achievements.map(
+                                                    (item, idx) => {
+                                                        return (
+                                                            <li
+                                                                key={idx}
+                                                                style={{
+                                                                    margin: 5,
+                                                                }}
+                                                                dangerouslySetInnerHTML={{
+                                                                    __html: item,
+                                                                }}
+                                                            />
+                                                        );
+                                                    }
+                                                )}
+                                        </ul>
                                     </div>
                                 </div>
                             );
@@ -84,7 +121,7 @@ export default function Resume({ resumeData }) {
                                             </em>
                                         </p>
                                         <ul style={{ listStyle: "circle" }}>
-                                            {item.Achievements &&
+                                        {item.Achievements &&
                                                 item.Achievements.map(
                                                     (item, idx) => {
                                                         return (
@@ -93,13 +130,18 @@ export default function Resume({ resumeData }) {
                                                                 style={{
                                                                     margin: 5,
                                                                 }}
-                                                            >
-                                                                {item}
-                                                            </li>
+                                                                dangerouslySetInnerHTML={{
+                                                                    __html: item,
+                                                                }}
+                                                            />
                                                         );
                                                     }
                                                 )}
                                         </ul>
+                                        <p>
+                                            <b>Skills: </b>
+                                            {item.skills}
+                                        </p>
                                     </div>
                                 </div>
                             );

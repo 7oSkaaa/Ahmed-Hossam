@@ -63,15 +63,24 @@ let resumeData = {
 	],
     address: "Port Said, Egypt",
     number: '<a href="tel:+201208822340"> 01208822340 </a>',
+    summary: [
+        `Detail-oriented Computer Science graduate with strong web development skills and a passion for problem-solving and
+        Competitive Programming. Proven proficiency in HTML, CSS, JavaScript, React JS, Python, and Django. Experience includes
+        Software Engineering and Full Stack Development at bld.ai. Demonstrated leadership in project management and a track
+        record of successful contests and events. Strong communicator with adaptability and a collaborative mindset.`
+    ],
     education: [
         {
             UniversityName: "Suez Canal University",
-            specialization: "Computer Science",
+            specialization: "Bachelor of Computer Science and Informatics",
             MonthOfJoin: "Sep",
             YearOfJoin: "2019",
             MonthOfLeaving: "July",
             YearOfLeaving: "2023",
-            Achievements: "🏆 3x ACPC Finalist",
+            Achievements: [
+                "Grade: <b>Excellent with Honor</b>",
+                "Achieved an <b>'Excellent'</b> grade for the Graduation Project - <a href=\"https://github.com/Etlas-SCU/Etlas-Android\" target=\"_blank\">Etlas</a>"
+            ],
         },
     ],
     work: [
@@ -84,12 +93,10 @@ let resumeData = {
             MonthOfLeaving: "January",
 			YearOfLeaving: "2023",
             Achievements: [
-                "Building an Extension for web browsers to help developrs to log thier worklogs and track thier time.",
-                "Building a landing page for the extension.",
-                "Building a Terminal CLI Command and Syncing it with the extension.",
-                "Linking the extension with Google Sheets API to log the worklogs.",
-                "Building an App Script to automate the Calendar Events and the worklogs.",
-            ]
+                "Developed and deployed <b>web extensions</b> that significantly improved user experience by providing additional features and functionalities",
+                "Led <b>web script</b> development for seamless data automation and <b>Google Sheets</b> integration, enhancing operational efficiency",
+            ],
+            skills: "Scripting, Google API, Git, GitLab"
         },
         {
             CompanyName: "bld.ai",
@@ -100,12 +107,12 @@ let resumeData = {
             MonthOfLeaving: "Nov",
             YearOfLeaving: "2022",
             Achievements: [
-                "Learn HTML, CSS, JavaScript, and React JS for Front‑End",
-                "Learn Python, Django, and SQL for Back‑End",
-                "Learn Git and GitHub for Version Control",
-                "Build a website for Udemy courses using React JS",
-                "Build script to fetch the data from real Udemy website",
+                "Developed engaging and responsive user interfaces using the mastery of <b>HTML, CSS, JavaScript, Bootstrap, and React JS</b>",
+                "Pioneered the development of robust and efficient server-side applications using extensive expertise in <b>Python, Django, and SQL</b>",
+                "Developed and launched a fully operational Udemy website using <b>React JS</b> <a href=\"https://github.com/7oSkaaa/Udemy-Website\" target=\"_blank\">(GitHub - github.com/7oSkaaa/Udemy-Website)</a>",
+                "Created an efficient <b>script</b> to extract real-time data from the Udemy website, enhancing data analysis and decision-making capabilities",
             ],
+            skills: "HTML, CSS, JS, Bootstrap, React JS, Python, Django, Git, GitHub, Trello"
         },
     ],
     volunteer: [
