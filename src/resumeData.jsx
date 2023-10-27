@@ -465,7 +465,7 @@ let resumeData = {
         },
         {
             name: "telegram",
-            url: "https://t.me/Ahmed7oskaa",
+            url: "https://t.me/ahmed_7oskaa",
             icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.webp"
         },
         {
