@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Ahmed-Hossam/static/css/main.9f69626b.css",
-    "main.js": "/Ahmed-Hossam/static/js/main.659d6795.js",
+    "main.js": "/Ahmed-Hossam/static/js/main.09e3d8fb.js",
     "index.html": "/Ahmed-Hossam/index.html",
     "main.9f69626b.css.map": "/Ahmed-Hossam/static/css/main.9f69626b.css.map",
-    "main.659d6795.js.map": "/Ahmed-Hossam/static/js/main.659d6795.js.map"
+    "main.09e3d8fb.js.map": "/Ahmed-Hossam/static/js/main.09e3d8fb.js.map"
   },
   "entrypoints": [
     "static/css/main.9f69626b.css",
-    "static/js/main.659d6795.js"
+    "static/js/main.09e3d8fb.js"
   ]
 }
