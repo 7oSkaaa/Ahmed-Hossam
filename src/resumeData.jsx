@@ -2,13 +2,15 @@ let resumeData = {
     imagebaseurl: "https://iili.io/Ha7Lb8Q.webp",
     name: "Ahmed Hossam",
     role: "Full Stack Developer",
-    Resume: "https://drive.google.com/file/d/16KfURaBsLj08She_fNPQJP7-dcRVE6SQ/view?usp=sharing",
+    Resume: "https://docs.google.com/document/d/1neYu1QyMXUmTpM3-vkvduRZb4ftwEHCRZM9ESnkU8bA/edit?usp=sharing",
     roleDescription: [
-		"🏫  I'm Full Stack Developer",
-		"💻  I'm Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests.",
-		"🧑🏻‍🎓  I am a Fresh Graduate from the Faculty of Computers & Informatics at Suez Canal University.",
-		"🏆  I'm a 3x ACPC Finalist.",
-		"🤓  Always learning new things."
+		"Software Development Engineer @noon",
+        "R & D Engineer @Coademy",
+		"Competitive Programmer @Codeforces, AtCoder, LeetCode, CodeChef and Google Contests",
+		"Fresh Graduate from the Faculty of Computers & Informatics at Suez Canal University",
+		"3x ACPC Finalist",
+		"Always learning new things",
+        "Using Software as a solution for every Problem",
 	],
     socialLinks: [
         {
@@ -53,12 +55,13 @@ let resumeData = {
         },
     ],
     aboutme: [
-		"🧑‍💼 I'm Full Stack Developer",
-		"🏫 I am a Fresh Graduate&nbspfrom&nbsp<a href=\"https://cutt.ly/FCI_SCU\" target=\"_blank\">faculty of Computers & Informatics</a>&nbspat&nbsp<a href=\"http://suez.edu.eg/ar/\" target=\"_blank\">Suez Canal University</a>.",
-		"🏆 3x ACPC Finalist.",
-		"🧑🏻‍💻 I love using Software as a solution for every Problem.",
-		"💻  I'm Competitive Programmer @ <a href=\"https://codeforces.com/profile/7oSkaaa/\" target=\"_blank\">Codeforces</a>,&nbsp<a href=\"https://atcoder.jp/users/ahmed_7oSkaa/\" target=\"_blank\">AtCoder</a>,&nbsp<a href=\"https://leetcode.com/7oSkaa/\" target=\"_blank\">LeetCode</a>,&nbsp<a href=\"https://www.codechef.com/users/ahmed_7oskaa\" target=\"_blank\">CodeChef</a>&nbspand&nbsp<a href=\"https://codingcompetitions.withgoogle.com/\" target=\"_blank\">Google Contests</a>.",
-		"🤓 Always learning new things."
+		"👨‍💻  I'm Software Development Engineer @<a href=\"https://www.noon.com/egypt-en/\" target=\"_blank\">noon</a>",
+		"⚙️  I'm R & D Engineer @<a href=\"https://coachacademy.club/\" target=\"_blank\">Coademy</a>",
+		"🏫  I am a Fresh Graduate&nbspfrom&nbsp<a href=\"https://cutt.ly/FCI_SCU\" target=\"_blank\">faculty of Computers & Informatics</a>&nbspat&nbsp<a href=\"http://suez.edu.eg/ar/\" target=\"_blank\">Suez Canal University</a>",
+		"🏆  I'am 3x ACPC Finalist",
+		"💻  I'm Competitive Programmer @ <a href=\"https://codeforces.com/profile/7oSkaaa/\" target=\"_blank\">Codeforces</a>,&nbsp<a href=\"https://atcoder.jp/users/ahmed_7oSkaa/\" target=\"_blank\">AtCoder</a>,&nbsp<a href=\"https://leetcode.com/7oSkaa/\" target=\"_blank\">LeetCode</a>,&nbsp<a href=\"https://www.codechef.com/users/ahmed_7oskaa\" target=\"_blank\">CodeChef</a>&nbspand&nbsp<a href=\"https://codingcompetitions.withgoogle.com/\" target=\"_blank\">Google Contests</a>",
+		"✍🏻  I love using Software as a solution for every Problem",
+		"🤓  Always learning new things"
 	],
     address: "Port Said, Egypt",
     number: '<a href="tel:+201208822340"> 01208822340 </a>',
@@ -84,10 +87,31 @@ let resumeData = {
     ],
     work: [
         {
+            CompanyName: "noon",
+            Type: "Full Time",
+            specialization: "Software Development Engineer",
+            MonthOfJoining: "Febraury",
+            YearOfJoining: "2024",
+            YearOfLeaving: "Present",
+        },
+        {
+            CompanyName: "Coademy",
+            Type: "Part Time",
+            specialization: "R & D Engineer",
+            MonthOfJoining: "November",
+            YearOfJoining: "2023",
+            YearOfLeaving: "Present",
+            Achievements: [
+                "<b>Created</b> clear and effective course materials for competitive programming",
+                "<b>Guided and supported</b> aspiring competitive programmers in a collaborative learning setting",
+                "<b>Headed the training team</b>, overseeing curriculum design and mentoring instructors to enhance education quality at Coademy"
+            ],
+        },
+        {
             CompanyName: "bld.ai",
             Type: "Part Time",
             specialization: "Software Engineer",
-            MonthOfJoining: "Nov",
+            MonthOfJoining: "November",
             YearOfJoining: "2022",
             MonthOfLeaving: "January",
 			YearOfLeaving: "2023",
@@ -103,7 +127,7 @@ let resumeData = {
             specialization: "Full Stack Developer Intern",
             MonthOfJoining: "July",
             YearOfJoining: "2022",
-            MonthOfLeaving: "Nov",
+            MonthOfLeaving: "November",
             YearOfLeaving: "2022",
             Achievements: [
                 "Developed engaging and responsive user interfaces using the mastery of <b>HTML, CSS, JavaScript, Bootstrap, and React JS</b>",
@@ -493,7 +517,8 @@ let resumeData = {
             name: "English",
             rate: "85",
         }
-    ]
+    ],
+    resumeLink: "https://docs.google.com/document/d/1neYu1QyMXUmTpM3-vkvduRZb4ftwEHCRZM9ESnkU8bA/edit?usp=sharing",
 };
 
 export default resumeData;

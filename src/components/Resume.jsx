@@ -1,11 +1,13 @@
-import React from "react";
-import ProgressBar from "@ramonak/react-progress-bar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faCog,
     faCode,
+    faCog,
     faEarthAfrica,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ProgressBar from "@ramonak/react-progress-bar";
+import Button from "react-bootstrap/Button";
+import React from "react";
 
 export default function Resume({ resumeData }) {
     return (
@@ -121,7 +123,7 @@ export default function Resume({ resumeData }) {
                                             </em>
                                         </p>
                                         <ul style={{ listStyle: "circle" }}>
-                                        {item.Achievements &&
+                                            {item.Achievements &&
                                                 item.Achievements.map(
                                                     (item, idx) => {
                                                         return (
@@ -138,10 +140,13 @@ export default function Resume({ resumeData }) {
                                                     }
                                                 )}
                                         </ul>
-                                        <p>
-                                            <b>Skills: </b>
-                                            {item.skills}
-                                        </p>
+                                        {
+                                            item.skills ?
+                                                <p>
+                                                    <b>Skills: </b>
+                                                    {item.skills}
+                                                </p> : null
+                                        }
                                     </div>
                                 </div>
                             );
@@ -399,32 +404,42 @@ export default function Resume({ resumeData }) {
                         })}
                 </div>
             </div>
-
-            <div className="row resume">
-                <div className="twelve columns header-col">
-                    <h1>
-                        <span>Resume</span>
-                    </h1>
-                </div>
-                <p
-                    className="twelve columns header-col resume_label"
+            <div className="row download">
+                <a
                     style={{
-                        ...{ fontSize: "2rem" },
-                        ...{ paddingLeft: "20px" },
-                        ...{ paddingTop: "50px" },
-                        ...{ fontStyle: "italic" },
-                        ...{ fontWeight: "bold" },
+                        ...{ margin: "1rem" },
+                        ...{ display: "flex" },
+                        ...{ justifyContent: "center" },
+                        ...{ background: "none" },
+                        ...{ width: "100%" }
                     }}
+                    href={resumeData.resumeLink}
+                    target="_blank"
+                    rel="noreferrer"
                 >
-                    You can check my resume from{" "}
-                    <a
-                        href={resumeData.Resume}
-                        target="_blank"
-                        rel="noreferrer"
+                    <Button
+                        style={{
+                            ...{
+                                marginBottom:
+                                    "0rem",
+                            }
+                        }}
+                        onClick={() => {
+                            try {
+                                const resumeLink = resumeData.Resume;
+                                console.log("Resume link:", resumeLink);
+                                if (!resumeLink) {
+                                    throw new Error("Resume link is undefined or null.");
+                                }
+                                window.open(resumeLink, "_blank");
+                            } catch (error) {
+                                console.error("Error opening resume link:", error);
+                            }
+                        }}
                     >
-                        Here
-                    </a>
-                </p>
+                        <i className="fa fa-download"></i> Download Resume
+                    </Button>
+                </a>
             </div>
         </section>
     );
