@@ -324,9 +324,9 @@ ul#nav a.current a {
 
 #about .profile-pic {
     position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    width: 208px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 #about .contact-details {
